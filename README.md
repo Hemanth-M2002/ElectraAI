@@ -43,7 +43,7 @@ Electra has been modernized with high-fidelity interactive elements and a profes
 - `/server`: Node.js backend and data scraping engine.
 
 ## For Reference Hosted Repo Files
-- Client : 'https://github.com/Hemanth-M2002/Electra-Client'
-- Server : 'https://github.com/Hemanth-M2002/Electra-Server'
+- Client : https://github.com/Hemanth-M2002/Electra-Client
+- Server : https://github.com/Hemanth-M2002/Electra-Server
 ---
 *Built for the future of Indian Democracy with Google Gemini.*
