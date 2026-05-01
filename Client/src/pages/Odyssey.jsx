@@ -110,7 +110,14 @@ export default function Odyssey({ selectedState }) {
   };
 
   return (
-    <div className="relative pb-24 overflow-x-hidden" ref={containerRef}>
+    <motion.div 
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.5 }}
+      className="relative pb-24 overflow-x-hidden" 
+      ref={containerRef}
+    >
       {/* Progress Bar */}
       <motion.div 
         className="fixed top-0 left-0 right-0 h-1.5 bg-saffron z-110 origin-left shadow-[0_0_15px_rgba(255,153,51,0.5)]"
@@ -272,7 +279,7 @@ export default function Odyssey({ selectedState }) {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

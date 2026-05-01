@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2, Info, Landmark, ShieldCheck, Fingerprint, MapPin, Search, ChevronRight, ArrowLeft } from 'lucide-react';
+import VoterID3D from '../components/VoterID3D';
 
 const stepsData = [
   {
@@ -30,15 +31,8 @@ const stepsData = [
         <p className="text-xs md:text-sm text-slate-600 font-medium mb-4">
           Visit <a href="https://electoralsearch.eci.gov.in" target="_blank" className="text-saffron font-bold underline">electoralsearch.eci.gov.in</a>
         </p>
-        <div className="flex justify-center gap-3">
-          <div className="w-14 h-14 md:w-16 md:h-16 bg-slate-100 rounded-xl md:rounded-2xl flex flex-col items-center justify-center">
-            <span className="text-[8px] md:text-[10px] font-black text-slate-400">EPIC</span>
-            <Search className="w-3 h-3 text-slate-300 mt-1" />
-          </div>
-          <div className="w-14 h-14 md:w-16 md:h-16 bg-slate-100 rounded-xl md:rounded-2xl flex flex-col items-center justify-center">
-            <span className="text-[8px] md:text-[10px] font-black text-slate-400">WEB</span>
-            <MapPin className="w-3 h-3 text-slate-300 mt-1" />
-          </div>
+        <div className="mt-4 rounded-3xl overflow-hidden border border-slate-100 shadow-inner bg-white/50">
+           <VoterID3D height="200px" interactive={false} />
         </div>
       </div>
     )
@@ -85,7 +79,13 @@ export default function VoterMode({ selectedState }) {
   const steps = stepsData;
 
   return (
-    <div className="relative min-h-screen bg-slate-50 pt-32 md:pt-48 pb-20 overflow-x-hidden selection:bg-saffron/30 selection:text-navy_blue">
+    <motion.div 
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.5 }}
+      className="relative min-h-screen bg-slate-50 pt-32 md:pt-48 pb-20 overflow-x-hidden selection:bg-saffron/30 selection:text-navy_blue"
+    >
       {/* Background Decor */}
       <div className="fixed top-0 left-1/2 -translate-x-1/2 w-[200%] md:w-[150%] h-[500px] md:h-[800px] bg-gradient-to-b from-saffron/10 via-white to-transparent -z-10 rounded-[100%] blur-[80px] md:blur-[120px] opacity-60" />
       <div className="absolute top-1/2 -right-24 w-96 h-96 bg-tricolor_green/5 rounded-full blur-[100px] -z-10" />
@@ -235,6 +235,6 @@ export default function VoterMode({ selectedState }) {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

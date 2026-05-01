@@ -135,40 +135,36 @@ export default function ChatAssistant({ selectedState, isOpen, setIsOpen }) {
             >
               {messages.map((msg, i) => (
                 <motion.div 
-                  initial={{ opacity: 0, y: 10 }}
+                  initial={{ opacity: 0, y: 5 }}
                   animate={{ opacity: 1, y: 0 }}
                   key={i} 
                   className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
                 >
-                  <div className={`max-w-[90%] p-4 rounded-[1.5rem] text-sm ${
+                  <div className={`max-w-[85%] px-3.5 py-2.5 rounded-2xl text-[13px] leading-relaxed ${
                     msg.role === 'user' 
-                      ? 'bg-navy_blue text-white rounded-tr-none shadow-lg shadow-navy_blue/10 font-bold' 
+                      ? 'bg-navy_blue text-white shadow-sm' 
                       : msg.isError 
-                        ? 'bg-red-50 text-red-600 border border-red-100 rounded-tl-none'
-                        : 'bg-white border border-slate-100 shadow-sm rounded-tl-none prose prose-slate prose-sm max-w-none'
+                        ? 'bg-red-50 text-red-600 border border-red-100'
+                        : 'bg-white border border-slate-100 shadow-sm text-slate-800'
                   }`}>
                     {msg.role === 'assistant' ? (
-                      <>
-                    <ReactMarkdown
-                      components={{
-                        strong: ({ children, ...props }) => <strong {...props}>{children}</strong>,
-                        p: ({ children, ...props }) => <p {...props}>{children}</p>
-                      }}
-                    >
-                      {msg.content}
-                    </ReactMarkdown>
+                      <div className="prose prose-slate prose-xs max-w-none">
+                        <ReactMarkdown
+                          components={{
+                            strong: ({ children, ...props }) => <strong {...props} className="font-bold text-inherit">{children}</strong>,
+                            p: ({ children, ...props }) => <p {...props} className="m-0">{children}</p>
+                          }}
+                        >
+                          {msg.content}
+                        </ReactMarkdown>
                         {msg.model && (
-                          <div className="mt-4 pt-3 border-t border-slate-50 flex items-center justify-between opacity-30 hover:opacity-100 transition-opacity">
-                            <span className="text-[7px] font-black text-slate-400 uppercase tracking-widest leading-none">via {msg.model.replace('models/', '')}</span>
-                            <div className="flex gap-1">
-                              <div className="w-1 h-1 bg-saffron rounded-full" />
-                              <div className="w-1 h-1 bg-tricolor_green rounded-full" />
-                            </div>
+                          <div className="mt-2 pt-2 border-t border-slate-50 flex items-center justify-between opacity-40">
+                            <span className="text-[7px] font-bold text-slate-400 uppercase tracking-widest">via {msg.model.replace('models/', '')}</span>
                           </div>
                         )}
-                      </>
+                      </div>
                     ) : (
-                      msg.content
+                      <p className="m-0 font-medium">{msg.content}</p>
                     )}
                   </div>
                 </motion.div>
@@ -214,21 +210,21 @@ export default function ChatAssistant({ selectedState, isOpen, setIsOpen }) {
             <div className="p-4 bg-white border-t border-slate-100">
               <div className="relative group">
                 <div className="absolute -inset-1 bg-gradient-to-r from-saffron/20 to-tricolor_green/20 rounded-3xl blur-md opacity-0 group-focus-within:opacity-100 transition-opacity" />
-                <div className="relative flex gap-3 bg-slate-50 p-2 rounded-[2rem] border border-slate-200 focus-within:bg-white focus-within:border-navy_blue/20 transition-all">
+                <div className="relative flex gap-2 bg-slate-50 p-1.5 rounded-[2rem] border border-slate-200 focus-within:bg-white focus-within:border-navy_blue/20 transition-all">
                   <input 
                     type="text" 
                     value={input}
                     onChange={(e) => setInput(e.target.value)}
                     onKeyDown={(e) => e.key === 'Enter' && handleSend()}
                     placeholder="Ask anything..."
-                    className="flex-1 bg-transparent border-none rounded-[1.5rem] px-5 py-3 text-sm font-bold text-navy_blue focus:ring-0 outline-none placeholder:text-slate-300"
+                    className="flex-1 bg-transparent border-none rounded-[1.5rem] px-4 py-2.5 text-sm font-medium text-navy_blue focus:ring-0 outline-none placeholder:text-slate-300"
                   />
                   <button 
                     onClick={handleSend}
                     disabled={isLoading || !input.trim()}
-                    className="bg-navy_blue text-white p-3.5 rounded-2xl hover:bg-slate-800 disabled:bg-slate-200 disabled:text-slate-400 transition-all active:scale-95 shadow-xl shadow-navy_blue/10"
+                    className="bg-navy_blue text-white p-3 rounded-2xl hover:bg-slate-800 disabled:bg-slate-200 disabled:text-slate-400 transition-all active:scale-95 shadow-lg shadow-navy_blue/10"
                   >
-                    <Send className="w-5 h-5" />
+                    <Send className="w-4 h-4" />
                   </button>
                 </div>
               </div>

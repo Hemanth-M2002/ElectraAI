@@ -411,7 +411,7 @@ app.get('/api/search', (req, res) => {
 
 // ─── Chat API (Smart Retry + Quota-Aware Fallback) ──────────────────────────
 app.post('/api/chat', async (req, res) => {
-  const { message, state, history } = req.body;
+  const { message, state, history, language } = req.body;
 
   if (!message || !message.trim()) {
     return res.status(400).json({
@@ -435,6 +435,16 @@ Do not support or criticize any party, candidate, or ideology.
 If asked for official or legal information, recommend checking eci.gov.in.
 Support English and Indian local languages (Tamil, Hindi, Telugu, etc.).
 Keep answers short, factual, and easy to understand for first-time voters.
+
+**CRITICAL FORMATTING RULES (BE UNIQUE & INTERACTIVE):**
+1. Break down information into scannable "Action Steps" or "Quick Facts" using bullet points.
+2. Use Markdown blockquotes (>) to create a "💡 Did you know?" or "Pro-Tip" trivia box in every response.
+3. Use emojis generously to make the tone energetic and modern.
+4. You MUST use Markdown bolding (**text**) to highlight the main or key information so it is easy to skim.
+5. ALWAYS end your response with an engaging follow-up question (e.g., "Would you like me to explain how to register online?") to keep the chat interactive.
+
+You must ALWAYS respond in the language specified by this code: ${language || 'en-IN'}.
+HOWEVER, if the user explicitly types or speaks in a different language (e.g., Tamil, Hindi), you MUST match the language they typed in.
 `;
 
   let lastError = null;
@@ -445,19 +455,28 @@ Keep answers short, factual, and easy to understand for first-time voters.
         console.log(`🤖 Attempting ${modelName}, attempt ${attempt}...`);
 
         const model = genAI.getGenerativeModel({
-          model: modelName
+          model: modelName,
+          systemInstruction: systemContext
         });
+
+        // Filter history: Gemini requires history to start with a 'user' message
+        let chatHistory = (history || []).map(m => ({
+          role: m.role === 'user' ? 'user' : 'model',
+          parts: [{ text: m.content }]
+        }));
+
+        const firstUserIndex = chatHistory.findIndex(m => m.role === 'user');
+        if (firstUserIndex !== -1) {
+          chatHistory = chatHistory.slice(firstUserIndex);
+        } else {
+          chatHistory = [];
+        }
 
         const chat = model.startChat({
-          history: (history || []).map(m => ({
-            role: m.role === 'user' ? 'user' : 'model',
-            parts: [{ text: m.content }]
-          }))
+          history: chatHistory
         });
 
-        const prompt = `${systemContext}\n\nUser: ${message}`;
-
-        const result = await chat.sendMessage(prompt);
+        const result = await chat.sendMessage(message);
         const response = await result.response;
 
         console.log(`✅ Success with ${modelName}`);

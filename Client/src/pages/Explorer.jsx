@@ -116,7 +116,13 @@ export default function Explorer({ selectedState }) {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 pt-24 md:pt-40 pb-20 overflow-x-hidden relative">
+    <motion.div 
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.5 }}
+      className="max-w-7xl mx-auto px-4 pt-24 md:pt-40 pb-20 overflow-x-hidden relative"
+    >
       {/* Header with Countdown */}
       <div className="grid lg:grid-cols-5 gap-12 items-end mb-16 md:mb-24">
         <div className="lg:col-span-3">
@@ -441,6 +447,6 @@ export default function Explorer({ selectedState }) {
           </motion.div>
         )}
       </AnimatePresence>
-    </div>
+    </motion.div>
   );
 }

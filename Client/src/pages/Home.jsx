@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { ChevronRight, Landmark, Users, Search, ShieldCheck, Zap, Sparkles, Globe, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import VoterID3D from '../components/VoterID3D';
 
 export default function Home({ selectedState }) {
   const features = [
@@ -36,7 +37,13 @@ export default function Home({ selectedState }) {
   ];
 
   return (
-    <div className="relative pt-24 md:pt-40 pb-20 overflow-x-hidden">
+    <motion.div 
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -20 }}
+      transition={{ duration: 0.5 }}
+      className="relative pt-24 md:pt-40 pb-20 overflow-x-hidden"
+    >
       {/* Background Decor */}
       <div className="fixed top-0 left-1/2 -translate-x-1/2 w-[200%] md:w-[150%] h-[500px] md:h-[800px] bg-gradient-to-b from-saffron/10 via-white to-transparent -z-10 rounded-[100%] blur-[80px] md:blur-[120px] opacity-60" />
       
@@ -140,8 +147,53 @@ export default function Home({ selectedState }) {
           ))}
         </div>
       </section>
+ 
+      {/* 3D Civic Identity Section */}
+      <section className="max-w-7xl mx-auto px-4 mb-24 md:mb-40">
+        <div className="bg-slate-50/50 rounded-[3rem] md:rounded-[5rem] border border-slate-100 p-8 md:p-20 relative overflow-hidden">
+           <div className="grid lg:grid-cols-2 gap-12 md:gap-20 items-center">
+              <motion.div
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+              >
+                <div className="inline-flex items-center gap-2 bg-saffron/10 px-4 py-2 rounded-full mb-6">
+                   <ShieldCheck className="w-4 h-4 text-saffron" />
+                   <span className="text-[10px] font-black text-saffron uppercase tracking-widest">Digital Twin Architecture</span>
+                </div>
+                <h2 className="text-4xl md:text-7xl font-black text-navy_blue mb-6 md:mb-8 tracking-tighter leading-none">
+                  Your Voice, <br />
+                  <span className="text-saffron">Your Identity.</span>
+                </h2>
+                <p className="text-lg md:text-xl text-slate-400 font-medium leading-relaxed mb-8 md:mb-10 max-w-lg">
+                  The Electors Photo Identity Card (EPIC) is more than just plastic—it's your gateway to shaping the future of {selectedState}. Explore the anatomy of your civic passport in 3D.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                   <div className="px-5 py-3 bg-white rounded-2xl border border-slate-100 shadow-sm flex items-center gap-3">
+                      <div className="w-2 h-2 rounded-full bg-tricolor_green" />
+                      <span className="text-xs font-black text-navy_blue uppercase tracking-tight">Security Validated</span>
+                   </div>
+                   <div className="px-5 py-3 bg-white rounded-2xl border border-slate-100 shadow-sm flex items-center gap-3">
+                      <div className="w-2 h-2 rounded-full bg-saffron" />
+                      <span className="text-xs font-black text-navy_blue uppercase tracking-tight">ISO Compliant</span>
+                   </div>
+                </div>
+              </motion.div>
 
-      {/* Myth vs Fact */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9, rotateY: 20 }}
+                whileInView={{ opacity: 1, scale: 1, rotateY: 0 }}
+                viewport={{ once: true }}
+                className="relative h-[350px] md:h-[450px] bg-white rounded-[3rem] shadow-2xl border border-slate-100 overflow-hidden"
+              >
+                 <div className="absolute inset-0 bg-gradient-to-tr from-saffron/5 via-transparent to-tricolor_green/5" />
+                 <VoterID3D height="100%" />
+              </motion.div>
+           </div>
+        </div>
+      </section>
+
+       {/* Myth vs Fact */}
       <section className="max-w-7xl mx-auto px-4">
         <div className="bg-navy_blue rounded-[3rem] md:rounded-[5rem] p-8 md:p-24 relative overflow-hidden shadow-[0_50px_100px_-20px_rgba(10,25,47,0.3)]">
           <div className="absolute top-0 right-0 w-[400px] md:w-[600px] h-[400px] md:h-[600px] bg-saffron/10 rounded-full -mr-48 md:-mr-72 -mt-48 md:-mt-72 blur-[100px] md:blur-[150px]" />
@@ -192,7 +244,7 @@ export default function Home({ selectedState }) {
           </div>
         </div>
       </section>
-    </div>
+    </motion.div>
   );
 }
 
