@@ -97,7 +97,8 @@ export default function Explorer({ selectedState }) {
     setLiveCandidates([]);
     setDataSource('');
     try {
-      const response = await axios.post('http://localhost:5000/api/candidates', { constituency: cName });
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const response = await axios.post(`${apiUrl}/api/candidates`, { constituency: cName });
       setLiveCandidates(response.data.candidates || []);
       setDataSource(response.data.source || 'Public Records');
     } catch (err) {

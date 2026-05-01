@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Float, OrbitControls, Html, ContactShadows, Environment } from '@react-three/drei';
 import { motion, AnimatePresence } from 'framer-motion';
-import * as THREE from 'three';
+import { MathUtils } from 'three';
 
 const CardContent = ({ isFlipped, data }) => {
   const meshRef = useRef();
@@ -12,8 +12,8 @@ const CardContent = ({ isFlipped, data }) => {
     if (!meshRef.current) return;
     const { x, y } = state.mouse;
     if (!isFlipped) {
-      meshRef.current.rotation.x = THREE.MathUtils.lerp(meshRef.current.rotation.x, -y * 0.1, 0.1);
-      meshRef.current.rotation.y = THREE.MathUtils.lerp(meshRef.current.rotation.y, x * 0.1, 0.1);
+      meshRef.current.rotation.x = MathUtils.lerp(meshRef.current.rotation.x, -y * 0.1, 0.1);
+      meshRef.current.rotation.y = MathUtils.lerp(meshRef.current.rotation.y, x * 0.1, 0.1);
     }
   });
 
@@ -136,7 +136,7 @@ export default function VoterID3D({ data, height = "300px", interactive = true }
 
   return (
     <div className="relative group cursor-grab active:cursor-grabbing" style={{ height }}>
-      <Canvas shadowMap camera={{ position: [0, 0, 5], fov: 35 }}>
+      <Canvas shadows camera={{ position: [0, 0, 5], fov: 35 }}>
         <ambientLight intensity={0.5} />
         <pointLight position={[10, 10, 10]} intensity={1} castShadow />
         <spotLight position={[-10, 10, 10]} angle={0.15} penumbra={1} />

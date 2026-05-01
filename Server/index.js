@@ -532,7 +532,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // ─── Start Server ───────────────────────────────────────────────────────────
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000 || process.env.CLIENT_URL;
 app.listen(PORT, () => {
   console.log(`⚡ Electra Backend running on port ${PORT} (Instant Local-First Mode)`);
   console.log(`🔗 Health check: http://localhost:${PORT}/api/health`);

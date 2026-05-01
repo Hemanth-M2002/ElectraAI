@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { Send, Sparkles, AlertCircle, Trash2, History, Plus, Globe, ShieldCheck, ChevronLeft, Loader2, X, PanelLeftClose, PanelLeftOpen, PanelLeft } from 'lucide-react';
+import { Send, Sparkles, AlertCircle, Trash2, History, Plus, Globe, ShieldCheck, ChevronLeft, Loader2, X, PanelLeftClose, PanelLeftOpen, PanelLeft, Copy, RotateCcw } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
@@ -40,6 +40,11 @@ export default function ChatPage({ selectedState }) {
   const [isSidebarOpen, setIsSidebarOpen] = useState(window.innerWidth >= 1024);
   const [language, setLanguage] = useState('en-IN');
   const [isListening, setIsListening] = useState(false);
+  const [isProcessing, setIsProcessing] = useState(false);
+  const [editingMessageIndex, setEditingMessageIndex] = useState(null);
+  const [editText, setEditText] = useState('');
+  const abortControllerRef = useRef(null);
+  const stopTypingRef = useRef(false);
   const messagesEndRef = useRef(null);
   const scrollContainerRef = useRef(null);
   const recognitionRef = useRef(null);
@@ -144,27 +149,47 @@ export default function ChatPage({ selectedState }) {
     recognitionRef.current.start();
   };
 
-  const handleSend = async (voiceMessage) => {
-    const messageToSend = voiceMessage || input;
-    if (!messageToSend.trim() || isLoading) return;
+  const stopGenerating = () => {
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+    }
+    stopTypingRef.current = true;
+    setIsProcessing(false);
+    setIsLoading(false);
+  };
 
-    const userMessage = { role: 'user', content: messageToSend };
-    setMessages(prev => [...prev, userMessage]);
-    if (!voiceMessage) setInput('');
+  const handleSend = async (messageOverride, isRegenerate = false) => {
+    const messageToSend = messageOverride || input;
+    if (!messageToSend.trim() || isProcessing) return;
+
+    if (!isRegenerate) {
+      const userMessage = { role: 'user', content: messageToSend };
+      setMessages(prev => [...prev, userMessage]);
+      setInput('');
+    }
+
+    setIsProcessing(true);
     setIsLoading(true);
+    stopTypingRef.current = false;
+    abortControllerRef.current = new AbortController();
 
     try {
-      const response = await axios.post('http://localhost:5000/api/chat', {
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const response = await axios.post(`${apiUrl}/api/chat`, {
         message: messageToSend,
         state: selectedState,
         language: language,
         history: messages.map(m => ({ role: m.role, content: m.content }))
+      }, {
+        signal: abortControllerRef.current.signal
       });
 
       const fullReply = response.data.reply;
       const modelInfo = response.data.model;
 
-      // Add empty assistant message first
+      setIsLoading(false);
+      
+      // Add empty assistant message
       setMessages(prev => [...prev, { 
         role: 'assistant', 
         content: '',
@@ -172,35 +197,64 @@ export default function ChatPage({ selectedState }) {
         isTyping: true
       }]);
 
-      setIsLoading(false);
-
-      // Simulate character-by-character streaming
       let currentText = '';
       const chars = Array.from(fullReply);
       
       for (let i = 0; i < chars.length; i++) {
+        if (stopTypingRef.current) break;
+        
         currentText += chars[i];
         setMessages(prev => {
           const newMessages = [...prev];
-          newMessages[newMessages.length - 1].content = currentText;
-          // Only the last char should keep isTyping true to stop effect
-          if (i === chars.length - 1) newMessages[newMessages.length - 1].isTyping = false;
+          if (newMessages.length > 0) {
+            newMessages[newMessages.length - 1].content = currentText;
+            if (i === chars.length - 1) newMessages[newMessages.length - 1].isTyping = false;
+          }
           return newMessages;
         });
         
-        // Speed control: slow down for punctuation, speed up for normal chars
-        const delay = ['.', '?', '!'].includes(chars[i]) ? 150 : 15;
+        const delay = ['.', '?', '!'].includes(chars[i]) ? 100 : 15;
         await new Promise(r => setTimeout(r, delay));
       }
 
     } catch (error) {
-      const errorMsg = error.response?.data?.reply || "I'm having trouble connecting to the brain center. This is usually due to high traffic. Please try again in a moment.";
-      setMessages(prev => [...prev, { 
-        role: 'assistant', 
-        content: errorMsg,
-        isError: true 
-      }]);
+      if (error.name === 'CanceledError' || error.name === 'AbortError') {
+        console.log("Request cancelled");
+      } else {
+        const errorMsg = error.response?.data?.reply || "I'm having trouble connecting. Please try again.";
+        setMessages(prev => [...prev, { role: 'assistant', content: errorMsg, isError: true }]);
+      }
+    } finally {
+      setIsProcessing(false);
       setIsLoading(false);
+    }
+  };
+
+  const handleEditMessage = (index) => {
+    setEditingMessageIndex(index);
+    setEditText(messages[index].content);
+  };
+
+  const saveEdit = (index) => {
+    const updatedMessages = messages.slice(0, index);
+    setMessages(updatedMessages);
+    setEditingMessageIndex(null);
+    handleSend(editText);
+  };
+
+  const copyToClipboard = (text) => {
+    navigator.clipboard.writeText(text);
+    // You could add a toast here
+  };
+
+  const regenerateLast = () => {
+    const lastUserMsgIndex = [...messages].reverse().findIndex(m => m.role === 'user');
+    if (lastUserMsgIndex !== -1) {
+      const actualIndex = messages.length - 1 - lastUserMsgIndex;
+      const lastUserMsg = messages[actualIndex].content;
+      // Truncate messages after that user message
+      setMessages(messages.slice(0, actualIndex + 1));
+      handleSend(lastUserMsg, true);
     }
   };
 
@@ -427,59 +481,95 @@ export default function ChatPage({ selectedState }) {
                   {msg.role === 'assistant' ? <Sparkles className="w-5 h-5 md:w-6 md:h-6 text-saffron" /> : 'YOU'}
                 </div>
                 
-                <div className={`max-w-[85%] p-4 md:p-6 rounded-2xl ${
+                <div className={`max-w-[85%] relative group/msg ${
                   msg.role === 'user' 
                     ? 'bg-navy_blue text-white shadow-lg' 
                     : msg.isError 
                       ? 'bg-red-50 text-red-600 border border-red-100'
                       : 'bg-white border border-slate-200 shadow-sm prose prose-slate max-w-none prose-sm'
-                }`}>
-                  {msg.role === 'assistant' ? (
+                } p-4 md:p-6 rounded-2xl`}>
+                  {msg.role === 'user' ? (
+                    editingMessageIndex === i ? (
+                      <div className="space-y-3 min-w-[200px]">
+                        <textarea 
+                          value={editText}
+                          onChange={(e) => setEditText(e.target.value)}
+                          className="w-full bg-white/10 border border-white/20 rounded-xl p-3 text-white outline-none focus:ring-2 focus:ring-saffron/50 transition-all resize-none"
+                          rows={3}
+                        />
+                        <div className="flex justify-end gap-2">
+                          <button onClick={() => setEditingMessageIndex(null)} className="px-3 py-1 text-[10px] font-black uppercase tracking-widest hover:text-saffron transition-colors">Cancel</button>
+                          <button onClick={() => saveEdit(i)} className="bg-saffron text-navy_blue px-3 py-1 rounded-lg text-[10px] font-black uppercase tracking-widest shadow-lg shadow-saffron/20">Save & Submit</button>
+                        </div>
+                      </div>
+                    ) : (
+                      <>
+                        <p className="font-medium text-sm md:text-base leading-relaxed">{msg.content}</p>
+                        <button 
+                          onClick={() => handleEditMessage(i)}
+                          className="absolute -left-12 top-1/2 -translate-y-1/2 p-2 text-slate-300 hover:text-navy_blue opacity-0 group-hover/msg:opacity-100 transition-all"
+                          title="Edit Message"
+                        >
+                          <RotateCcw className="w-4 h-4" />
+                        </button>
+                      </>
+                    )
+                  ) : (
                     <>
-                    <ReactMarkdown
-                      components={{
-                        strong: ({ children, ...props }) => <strong className="font-black text-navy_blue bg-saffron/10 px-1 rounded" {...props}>{children}</strong>,
-                        p: ({ children, ...props }) => <p className="mb-4 last:mb-0 leading-relaxed" {...props}>{children}</p>,
-                        blockquote: ({ children, ...props }) => (
-                          <blockquote className="border-l-4 border-saffron bg-gradient-to-r from-saffron/10 to-transparent p-4 rounded-r-2xl my-6 text-navy_blue/90 font-medium shadow-sm" {...props}>
-                            {children}
-                          </blockquote>
-                        ),
-                        ul: ({ children, ...props }) => <ul className="space-y-3 my-5" {...props}>{children}</ul>,
-                        ol: ({ children, ...props }) => <ol className="space-y-3 my-5 list-decimal list-inside" {...props}>{children}</ol>,
-                        li: ({ children, ...props }) => (
-                          <li className="flex gap-3 items-start" {...props}>
-                            <span className="text-saffron mt-1 shadow-sm">✦</span>
-                            <span className="flex-1">{children}</span>
-                          </li>
-                        )
-                      }}
-                    >
-                      {msg.content}
-                    </ReactMarkdown>
-                    {msg.isTyping && <span className="animate-cursor" />}
-
-                    {/* 3D Voter ID Trigger */}
-                    {msg.role === 'assistant' && (msg.content.toLowerCase().includes('voter id') || msg.content.toLowerCase().includes('epic card')) && !msg.isError && (
-                      <motion.div 
-                        initial={{ opacity: 0, scale: 0.95, y: 10 }}
-                        animate={{ opacity: 1, scale: 1, y: 0 }}
-                        transition={{ delay: 0.5 }}
-                        className="mt-6 rounded-3xl bg-slate-50 border border-slate-100 overflow-hidden shadow-inner"
+                      <ReactMarkdown
+                        components={{
+                          strong: ({ children, ...props }) => <strong className="font-black text-navy_blue bg-saffron/10 px-1 rounded" {...props}>{children}</strong>,
+                          p: ({ children, ...props }) => <p className="mb-4 last:mb-0 leading-relaxed" {...props}>{children}</p>,
+                          blockquote: ({ children, ...props }) => (
+                            <blockquote className="border-l-4 border-saffron bg-gradient-to-r from-saffron/10 to-transparent p-4 rounded-r-2xl my-6 text-navy_blue/90 font-medium shadow-sm" {...props}>
+                              {children}
+                            </blockquote>
+                          ),
+                          ul: ({ children, ...props }) => <ul className="space-y-3 my-5" {...props}>{children}</ul>,
+                          ol: ({ children, ...props }) => <ol className="space-y-3 my-5 list-decimal list-inside" {...props}>{children}</ol>,
+                          li: ({ children, ...props }) => (
+                            <li className="flex gap-3 items-start" {...props}>
+                              <span className="text-saffron mt-1 shadow-sm">✦</span>
+                              <span className="flex-1">{children}</span>
+                            </li>
+                          )
+                        }}
                       >
-                         <div className="p-4 border-b border-slate-100 flex items-center justify-between bg-white">
-                            <div className="flex items-center gap-2">
-                               <Sparkles className="w-4 h-4 text-saffron" />
-                               <span className="text-[10px] font-black text-navy_blue uppercase tracking-widest">Interactive Visual Guide</span>
-                            </div>
-                         </div>
-                         <VoterID3D height="280px" />
-                         <div className="p-4 bg-white flex flex-col gap-2">
-                            <p className="text-[9px] font-bold text-slate-400 uppercase tracking-tight">AI Enhancement</p>
-                            <p className="text-[10px] text-navy_blue/70 font-medium italic">"Click and drag to rotate the card. Use the button below to inspect the back."</p>
-                         </div>
-                      </motion.div>
-                    )}
+                        {msg.content}
+                      </ReactMarkdown>
+                      {msg.isTyping && <span className="animate-cursor" />}
+
+                      {/* Assistant Actions */}
+                      {!msg.isTyping && !msg.isError && (
+                        <div className="absolute -right-12 top-0 flex flex-col gap-1 opacity-0 group-hover/msg:opacity-100 transition-all">
+                          <button onClick={() => copyToClipboard(msg.content)} className="p-2 text-slate-300 hover:text-navy_blue transition-colors" title="Copy"><Copy className="w-4 h-4" /></button>
+                          {i === messages.length - 1 && (
+                            <button onClick={regenerateLast} className="p-2 text-slate-300 hover:text-navy_blue transition-colors" title="Regenerate"><RotateCcw className="w-4 h-4" /></button>
+                          )}
+                        </div>
+                      )}
+
+                      {/* 3D Voter ID Trigger */}
+                      {msg.role === 'assistant' && (msg.content.toLowerCase().includes('voter id') || msg.content.toLowerCase().includes('epic card')) && !msg.isError && (
+                        <motion.div 
+                          initial={{ opacity: 0, scale: 0.95, y: 10 }}
+                          animate={{ opacity: 1, scale: 1, y: 0 }}
+                          transition={{ delay: 0.5 }}
+                          className="mt-6 rounded-3xl bg-slate-50 border border-slate-100 overflow-hidden shadow-inner"
+                        >
+                           <div className="p-4 border-b border-slate-100 flex items-center justify-between bg-white">
+                              <div className="flex items-center gap-2">
+                                 <Sparkles className="w-4 h-4 text-saffron" />
+                                 <span className="text-[10px] font-black text-navy_blue uppercase tracking-widest">Interactive Visual Guide</span>
+                              </div>
+                           </div>
+                           <VoterID3D height="280px" />
+                           <div className="p-4 bg-white flex flex-col gap-2">
+                              <p className="text-[9px] font-bold text-slate-400 uppercase tracking-tight">AI Enhancement</p>
+                              <p className="text-[10px] text-navy_blue/70 font-medium italic">"Click and drag to rotate the card. Use the button below to inspect the back."</p>
+                           </div>
+                        </motion.div>
+                      )}
                       {msg.model && (
                         <div className="mt-8 pt-6 border-t border-slate-50 flex items-center justify-between">
                           <span className="text-[7px] md:text-[9px] font-black text-slate-300 uppercase tracking-[0.2em]">Validated by {msg.model.replace('models/', '')} Engine</span>
@@ -491,8 +581,6 @@ export default function ChatPage({ selectedState }) {
                         </div>
                       )}
                     </>
-                  ) : (
-                    <p className="font-medium text-sm md:text-base leading-relaxed">{msg.content}</p>
                   )}
                 </div>
               </motion.div>
@@ -622,11 +710,12 @@ export default function ChatPage({ selectedState }) {
                 </button>
 
                 <button 
-                  onClick={handleSend}
-                  disabled={isLoading || !input.trim()}
-                  className="bg-navy_blue text-white p-3 rounded-xl hover:bg-slate-800 disabled:bg-slate-200 disabled:text-slate-400 transition-all active:scale-95 shadow-md shadow-navy_blue/10 ml-2"
+                  onClick={isProcessing ? stopGenerating : () => handleSend()}
+                  disabled={!isProcessing && !input.trim()}
+                  className={`${isProcessing ? 'bg-red-500 hover:bg-red-600' : 'bg-navy_blue hover:bg-slate-800'} text-white p-3 rounded-xl transition-all active:scale-95 shadow-md shadow-navy_blue/10 ml-2`}
+                  title={isProcessing ? "Stop Generating" : "Send Message"}
                 >
-                  <Send className="w-5 h-5" />
+                  {isProcessing ? <X className="w-5 h-5" /> : <Send className="w-5 h-5" />}
                 </button>
               </div>
             </div>

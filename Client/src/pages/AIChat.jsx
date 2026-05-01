@@ -66,8 +66,9 @@ What would you like to know?`
     setIsLoading(true);
     inputRef.current?.focus();
 
+    const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
     try {
-      const response = await axios.post('http://localhost:5000/api/chat', {
+      const response = await axios.post(`${apiUrl}/api/chat`, {
         message: currentInput,
         state: selectedState,
         history: messages.map(m => ({ role: m.role, content: m.content }))
