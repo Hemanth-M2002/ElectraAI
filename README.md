@@ -5,27 +5,42 @@ Electra is an immersive, non-partisan educational portal designed for the 2026 T
 ## Chosen Vertical
 **Election Process Education**
 
-## Approach and Logic
-Electra adopts a multi-modal approach to civic education, focusing on four primary interaction pillars:
+## 🚀 Latest Premium Features (v2.0)
 
-1.  **Electra AI (Conversational Intelligence)**: A smart assistant powered by **Google Gemini 2.0 Flash**. It provides neutral, non-partisan answers to complex democratic questions, grounded in official ECI (Election Commission of India) data patterns.
-2.  **Constituency Explorer (Live Data Engine)**: A robust search interface that uses a Node.js backend to scrape and cache authentic candidate information from ADR/MyNeta. It provides real-world transparency into who is contesting in every constituency.
-3.  **The Odyssey (Interactive Timeline)**: A visual roadmap of the election cycle, helping users understand key milestones from nomination filing to the announcement of results.
-4.  **Voter Mode (Procedural Walkthrough)**: A step-by-step interactive guide for first-time voters, covering everything from eligibility checks to the secret ballot process at the polling station.
+Electra has been modernized with high-fidelity interactive elements and a professional AI interface:
 
-## How the Solution Works
-- **Frontend**: Built with React and Tailwind CSS, utilizing Framer Motion for premium, accessible animations and Luide-react for clear iconography.
-- **Backend**: A Node.js/Express server handles API requests, orchestrates live data scraping, and integrates with the **Google Generative AI SDK**.
-- **Data Integrity**: The system prioritizes verified sources (ECI, MyNeta) and uses local caching to ensure high performance and reliability during peak traffic.
+1.  **Interactive Civic Identity (3D Voter ID)**:
+    - Implemented a state-of-the-art 3D model of the Indian Voter ID (EPIC) using **React Three Fiber (R3F)** and **Drei**.
+    - Features holographic-style tricolor branding, interactive tilt/rotation, and contextual triggers within the AI chat.
 
-## Assumptions Made
-- **Data Availability**: It is assumed that MyNeta/ADR remains the primary reliable source for structured candidate affidavits during the 2026 cycle.
-- **Connectivity**: The application assumes active internet connectivity for real-time AI responses and live candidate lookups.
-- **Neutrality**: All AI prompts are engineered to enforce strict neutrality, avoiding political bias in accordance with civic education best practices.
+2.  **Smart AI Response Streaming**:
+    - Responses now stream character-by-character with **punctuation-aware pacing**, mimicking professional assistants like Google Gemini.
+    - Added a **blinking saffron cursor** to provide a real-time "active" feedback loop.
+
+3.  **Premium Gemini-Inspired UI**:
+    - A custom "Thinking" animation featuring a **pulsating tricolor halo** and a central Electra "E" logo.
+    - Visualizes constitutional data synchronization through shimmering gradients and animated tricolor dots.
+
+4.  **Smart Scroll & Navigation**:
+    - **Intelligent Auto-Scroll**: The chat only scrolls to the bottom if the user is already there, allowing unrestricted reading of chat history while the AI types.
+    - **Fluid Page Transitions**: Standardized **Framer Motion** transitions across all routes for a seamless, high-end application feel.
+
+## Core Interaction Pillars
+
+- **Electra AI (Conversational Intelligence)**: A smart assistant powered by **Google Gemini 2.0 Flash**. It provides neutral, non-partisan answers grounded in official ECI data patterns.
+- **Constituency Explorer (Live Data Engine)**: A robust search interface that uses a Node.js backend to provide real-world transparency into candidate affidavits and MLA roles.
+- **The Odyssey (Interactive Timeline)**: A visual roadmap of the election cycle milestones from nomination to results.
+- **Voter Mode (Procedural Walkthrough)**: A step-by-step interactive guide for first-time voters, covering everything from registration to the booth.
+
+## 🛠️ Tech Stack
+- **Frontend**: React, Tailwind CSS, **React Three Fiber (Three.js)**.
+- **Animation**: **Framer Motion** for UI and page transitions.
+- **Backend**: Node.js/Express with Google Generative AI SDK.
+- **Data**: Scraped and cached candidate information from official sources.
 
 ## Project Structure
 - `/client`: React frontend application.
 - `/server`: Node.js backend and data scraping engine.
 
 ---
-*Built with Google Antigravity and Gemini.*
+*Built for the future of Indian Democracy with Google Gemini.*
