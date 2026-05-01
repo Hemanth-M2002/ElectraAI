@@ -2,6 +2,10 @@
 
 Electra is an immersive, non-partisan educational portal designed for the 2026 Tamil Nadu Legislative Assembly election cycle. It empowers citizens through data transparency, neutral information, and conversational AI.
 
+## DEMO Video
+
+https://github.com/user-attachments/assets/3af0bbf6-7545-49d3-baf7-38448db18218
+
 ## Chosen Vertical
 **Election Process Education**
 
@@ -37,6 +41,10 @@ Electra has been modernized with high-fidelity interactive elements and a profes
 - **Animation**: **Framer Motion** for UI and page transitions.
 - **Backend**: Node.js/Express with Google Generative AI SDK.
 - **Data**: Scraped and cached candidate information from official sources.
+
+# Disclaimer 
+Since we use Gemini API for the AI response, sometimes the server gets failed prompting "Electra is temporarily unavailable due to high demand on Gemini servers".
+
 
 ## Project Structure
 - `/client`: React frontend application.
