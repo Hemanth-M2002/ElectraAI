@@ -1,0 +1,149 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@theme {
+  --color-saffron: #FF9933;
+  --color-tricolor_white: #FFFFFF;
+  --color-tricolor_green: #128807;
+  --color-navy_blue: #0A192F;
+  --font-outfit: 'Outfit', sans-serif;
+  --font-jakarta: 'Plus Jakarta Sans', sans-serif;
+}
+
+:root {
+  --saffron: #FF9933;
+  --navy: #0A192F;
+  --glass: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.4);
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  @apply bg-slate-50 text-slate-900;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Premium Glassmorphism */
+.glass {
+  background: var(--glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+}
+
+.glass-dark {
+  background: rgba(10, 25, 47, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Interactive Elements */
+.interactive-card {
+  @apply transition-all duration-500 ease-out;
+}
+
+.interactive-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 30px 60px -20px rgba(10, 25, 47, 0.15);
+}
+
+/* Button Styles */
+.btn-primary {
+  @apply bg-navy_blue text-white px-7 py-3.5 rounded-2xl font-black hover:opacity-90 transition-all active:scale-95 shadow-xl shadow-navy_blue/20 flex items-center justify-center gap-3 cursor-pointer;
+}
+
+.btn-secondary {
+  @apply bg-white text-navy_blue border-2 border-navy_blue px-7 py-3.5 rounded-2xl font-black hover:bg-slate-50 transition-all active:scale-95 flex items-center justify-center gap-3 cursor-pointer;
+}
+
+/* Scrollbar Styling */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full hover:bg-slate-400 transition-colors;
+}
+
+/* Animation Utilities */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+/* Responsive Text */
+.text-fluid-h1 {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 0.95;
+}
+
+.text-fluid-p {
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+}
+
+.text-fluid-h2 {
+  font-size: clamp(1.75rem, 4vw, 3rem);
+}
+
+/* VoterMode content visibility */
+.votermode-content > * {
+  visibility: visible !important;
+}
+
+.votermode-content ul li,
+.votermode-content p,
+.votermode-content div {
+  visibility: visible !important;
+}
+
+/* Prevent overflow on very large screens */
+@media (min-width: 1920px) {
+  .container-fluid {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  body {
+    font-size: 16px;
+  }
+  
+  h1, .text-fluid-h1 {
+    font-size: 4.5rem;
+  }
+  
+  h2, .text-fluid-h2 {
+    font-size: 2.5rem;
+  }
+  
+  p, .text-fluid-p {
+    font-size: 1.125rem;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .text-fluid-h1 {
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+  }
+}
+

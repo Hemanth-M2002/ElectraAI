@@ -1,0 +1,339 @@
+import { useState, useRef, useEffect } from 'react';
+import { Send, Sparkles, AlertCircle, Trash2, History, Plus, Globe, ShieldCheck, ChevronLeft, Loader2, X } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import axios from 'axios';
+import ReactMarkdown from 'react-markdown';
+
+export default function ChatPage({ selectedState }) {
+  const [messages, setMessages] = useState([
+    { 
+      role: 'assistant', 
+      content: `Greetings! I am Electra, your neutral civic education assistant for India. I'm currently focused on the democratic process in **${selectedState}**. How can I assist you today?` 
+    }
+  ]);
+  const [input, setInput] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const messagesEndRef = useRef(null);
+  const scrollContainerRef = useRef(null);
+  const isFirstRender = useRef(true);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const scrollToBottom = () => {
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+      return;
+    }
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollTo({
+        top: scrollContainerRef.current.scrollHeight,
+        behavior: "smooth"
+      });
+    }
+  };
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages]);
+
+  const handleSend = async () => {
+    if (!input.trim() || isLoading) return;
+
+    const userMessage = { role: 'user', content: input };
+    setMessages(prev => [...prev, userMessage]);
+    setInput('');
+    setIsLoading(true);
+
+    try {
+      const response = await axios.post('http://localhost:5000/api/chat', {
+        message: input,
+        state: selectedState,
+        history: messages.map(m => ({ role: m.role, content: m.content }))
+      });
+
+      setMessages(prev => [...prev, { 
+        role: 'assistant', 
+        content: response.data.reply,
+        model: response.data.model
+      }]);
+    } catch (error) {
+      const errorMsg = error.response?.data?.reply || "I'm having trouble connecting to the brain center. This is usually due to high traffic. Please try again in a moment.";
+      setMessages(prev => [...prev, { 
+        role: 'assistant', 
+        content: errorMsg,
+        isError: true 
+      }]);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const clearChat = () => {
+    setMessages([
+      { 
+        role: 'assistant', 
+        content: `Greetings! I am Electra, your neutral civic education assistant for India. I'm currently focused on **${selectedState}**. How can I assist you today?` 
+      }
+    ]);
+  };
+
+  return (
+    <div className="flex h-screen bg-white overflow-hidden font-jakarta relative">
+      {/* Sidebar - Mobile Overlay */}
+      <AnimatePresence>
+        {(isSidebarOpen) && (
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setIsSidebarOpen(false)}
+            className="fixed inset-0 bg-navy_blue/40 backdrop-blur-sm z-110 lg:hidden"
+          />
+        )}
+      </AnimatePresence>
+
+      {/* Sidebar Content */}
+      <motion.div 
+        className={`fixed lg:relative w-80 h-full bg-slate-50 border-r border-slate-200 z-120 flex flex-col p-6 shadow-[inset_-10px_0_20px_-15px_rgba(0,0,0,0.05)] transition-transform duration-500 lg:translate-x-0 ${
+          isSidebarOpen ? 'translate-x-0' : '-translate-x-full'
+        }`}
+      >
+        <div className="flex items-center justify-between lg:block mb-8">
+          <Link to="/" className="flex items-center gap-3 group bg-white p-3 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all active:scale-95 w-fit">
+            <ChevronLeft className="w-4 h-4 text-navy_blue group-hover:-translate-x-1 transition-transform" />
+            <span className="text-[10px] font-black text-navy_blue uppercase tracking-widest">Dashboard</span>
+          </Link>
+          <button onClick={() => setIsSidebarOpen(false)} className="lg:hidden p-2 bg-white rounded-xl shadow-sm">
+            <X className="w-5 h-5 text-navy_blue" />
+          </button>
+        </div>
+
+        <button 
+          onClick={clearChat}
+          className="flex items-center gap-3 w-full p-4 rounded-2xl bg-navy_blue text-white hover:bg-slate-800 transition-all font-black mb-8 group shadow-xl shadow-navy_blue/10 active:scale-95"
+        >
+          <Plus className="w-5 h-5 text-saffron group-hover:rotate-90 transition-transform duration-500" />
+          New Discussion
+        </button>
+
+        <div className="flex-grow space-y-8 overflow-y-auto scrollbar-hide">
+          <div>
+            <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-4 px-2">Knowledge Context</p>
+            <div className="p-4 rounded-2xl bg-white border border-slate-100 text-xs font-bold text-navy_blue flex items-center gap-3 shadow-sm group hover:border-saffron/30 transition-colors">
+              <div className="w-2 h-2 rounded-full bg-tricolor_green animate-pulse" />
+              {selectedState} Election Cycle
+            </div>
+          </div>
+          
+          <div>
+            <p className="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-4 px-2">Capabilities</p>
+            <div className="grid grid-cols-1 gap-2">
+              {['Voter Registration', 'Constituency Data', 'EVM Security', 'Neutral FAQ'].map(item => (
+                <div key={item} className="p-3 rounded-xl border border-slate-200 bg-white/50 text-[10px] font-black text-slate-500 uppercase tracking-tight flex items-center gap-2">
+                  <div className="w-1 h-1 bg-saffron rounded-full" />
+                  {item}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-auto pt-6 border-t border-slate-200">
+          <div className="bg-gradient-to-br from-navy_blue to-slate-900 rounded-[2rem] p-6 text-white relative overflow-hidden group shadow-2xl">
+            <div className="absolute top-0 right-0 w-24 h-24 bg-saffron/20 rounded-full -mr-12 -mt-12 blur-2xl group-hover:bg-saffron/30 transition-colors" />
+            <ShieldCheck className="w-8 h-8 text-saffron mb-4" />
+            <p className="text-xs font-black mb-1 uppercase tracking-tight">Verified Civic AI</p>
+            <p className="text-[10px] opacity-40 font-medium">ECI & PRS Data Validated</p>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Main Chat Area */}
+      <div className="flex-grow flex flex-col relative h-full bg-white">
+        {/* Tricolor Top Bar Accent */}
+        <div className="absolute top-0 left-0 right-0 h-1.5 flex z-50">
+          <div className="flex-grow bg-saffron" />
+          <div className="flex-grow bg-white" />
+          <div className="flex-grow bg-tricolor_green" />
+        </div>
+
+        {/* Chat Header */}
+        <div className="px-6 md:px-8 py-4 md:py-6 border-b border-slate-100 flex items-center justify-between bg-white/90 backdrop-blur-xl z-40">
+          <div className="flex items-center gap-4">
+            <button 
+              onClick={() => setIsSidebarOpen(true)}
+              className="lg:hidden p-2 bg-slate-50 rounded-xl border border-slate-200"
+            >
+              <History className="w-5 h-5 text-navy_blue" />
+            </button>
+            <div className="flex items-center gap-4">
+              <div className="w-10 h-10 md:w-14 md:h-14 bg-navy_blue rounded-2xl flex items-center justify-center shadow-2xl shadow-navy_blue/20 group cursor-pointer overflow-hidden">
+                <Sparkles className="w-6 h-6 md:w-8 md:h-8 text-saffron group-hover:rotate-12 transition-transform" />
+              </div>
+              <div>
+                <div className="flex items-center gap-2 mb-0.5">
+                  <h1 className="text-lg md:text-2xl font-black text-navy_blue tracking-tight">Electra AI</h1>
+                  <span className="bg-saffron/10 text-saffron text-[7px] md:text-[9px] font-black px-2 py-0.5 rounded-full uppercase tracking-widest border border-saffron/20">Hybrid v2.5</span>
+                </div>
+                <p className="text-[8px] md:text-[10px] font-black text-slate-400 uppercase tracking-[0.1em] flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-tricolor_green shadow-[0_0_5px_rgba(18,136,7,0.5)]" />
+                  Context: {selectedState}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center gap-2">
+            <button 
+              onClick={clearChat}
+              className="p-3 text-slate-400 hover:text-red-500 transition-all rounded-xl hover:bg-red-50 active:scale-90 hidden sm:block"
+              title="Clear Chat"
+            >
+              <Trash2 className="w-5 h-5" />
+            </button>
+            <Link to="/" className="p-3 text-slate-400 hover:text-navy_blue transition-all rounded-xl hover:bg-slate-50 active:scale-90">
+              <Globe className="w-5 h-5" />
+            </Link>
+          </div>
+        </div>
+
+        {/* Messages List */}
+        <div 
+          ref={scrollContainerRef}
+          className="flex-grow overflow-y-auto px-4 md:px-0 scroll-smooth bg-slate-50/20 scrollbar-hide"
+        >
+          <div className="max-w-4xl mx-auto py-10 md:py-16 space-y-12">
+            {messages.map((msg, i) => (
+              <motion.div 
+                key={i}
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                className={`flex gap-4 md:gap-8 ${msg.role === 'user' ? 'flex-row-reverse' : 'flex-row'}`}
+              >
+                <div className={`w-10 h-10 md:w-12 md:h-12 rounded-2xl flex-shrink-0 flex items-center justify-center font-black text-[10px] shadow-sm transition-transform duration-500 hover:rotate-6 ${
+                  msg.role === 'assistant' 
+                    ? 'bg-navy_blue text-white' 
+                    : 'bg-white border border-slate-200 text-navy_blue'
+                }`}>
+                  {msg.role === 'assistant' ? <Sparkles className="w-5 h-5 md:w-6 md:h-6 text-saffron" /> : 'YOU'}
+                </div>
+                
+                <div className={`max-w-[88%] p-6 md:p-10 rounded-[2.5rem] ${
+                  msg.role === 'user' 
+                    ? 'bg-navy_blue text-white rounded-tr-none shadow-2xl shadow-navy_blue/10' 
+                    : msg.isError 
+                      ? 'bg-red-50 text-red-600 border border-red-100'
+                      : 'bg-white border border-slate-200 shadow-sm rounded-tl-none prose prose-slate max-w-none prose-sm md:prose-base'
+                }`}>
+                  {msg.role === 'assistant' ? (
+                    <>
+                    <ReactMarkdown
+                      components={{
+                        strong: ({ children, ...props }) => <strong {...props}>{children}</strong>,
+                        p: ({ children, ...props }) => <p {...props}>{children}</p>
+                      }}
+                    >
+                      {msg.content}
+                    </ReactMarkdown>
+                      {msg.model && (
+                        <div className="mt-8 pt-6 border-t border-slate-50 flex items-center justify-between">
+                          <span className="text-[7px] md:text-[9px] font-black text-slate-300 uppercase tracking-[0.2em]">Validated by {msg.model.replace('models/', '')} Engine</span>
+                          <div className="flex gap-1.5">
+                            <div className="w-1.5 h-1.5 rounded-full bg-saffron" />
+                            <div className="w-1.5 h-1.5 rounded-full bg-slate-100" />
+                            <div className="w-1.5 h-1.5 rounded-full bg-tricolor_green" />
+                          </div>
+                        </div>
+                      )}
+                    </>
+                  ) : (
+                    <p className="font-bold text-sm md:text-lg">{msg.content}</p>
+                  )}
+                </div>
+              </motion.div>
+            ))}
+            
+            {isLoading && (
+              <div className="flex justify-start gap-4 md:gap-8">
+                <div className="w-10 h-10 md:w-12 md:h-12 bg-navy_blue rounded-2xl flex-shrink-0 flex items-center justify-center animate-pulse">
+                  <Sparkles className="w-5 h-5 text-saffron opacity-50" />
+                </div>
+                <div className="bg-white border border-slate-200 p-6 md:p-10 rounded-[2.5rem] rounded-tl-none shadow-sm flex flex-col gap-4 min-w-[250px] md:min-w-[400px]">
+                   <div className="flex gap-3 items-center">
+                     <Loader2 className="w-5 h-5 text-saffron animate-spin" />
+                     <span className="text-[10px] md:text-xs font-black text-navy_blue uppercase tracking-widest animate-pulse">
+                       Electra is cross-referencing...
+                     </span>
+                   </div>
+                   <div className="h-1.5 w-full bg-slate-50 rounded-full overflow-hidden p-0.5 border border-slate-100">
+                     <motion.div 
+                       initial={{ x: "-100%" }}
+                       animate={{ x: "100%" }}
+                       transition={{ repeat: Infinity, duration: 1.5, ease: "linear" }}
+                       className="h-full w-1/3 bg-gradient-to-r from-transparent via-saffron to-transparent rounded-full"
+                     />
+                   </div>
+                   <div className="flex justify-between items-center">
+                     <p className="text-[8px] md:text-[10px] font-bold text-slate-400 uppercase tracking-widest">
+                       Accessing Constitutional Datasets
+                     </p>
+                     <div className="flex gap-1">
+                        <div className="w-1 h-1 bg-tricolor_green rounded-full animate-bounce" style={{ animationDelay: '0s' }} />
+                        <div className="w-1 h-1 bg-tricolor_green rounded-full animate-bounce" style={{ animationDelay: '0.2s' }} />
+                        <div className="w-1 h-1 bg-tricolor_green rounded-full animate-bounce" style={{ animationDelay: '0.4s' }} />
+                     </div>
+                   </div>
+                </div>
+              </div>
+            )}
+            <div ref={messagesEndRef} className="h-32" />
+          </div>
+        </div>
+
+        {/* Input Area */}
+        <div className="p-4 md:p-10 bg-white border-t border-slate-100 relative">
+          <div className="max-w-4xl mx-auto">
+            <div className="relative group">
+              <div className="absolute -inset-1 bg-gradient-to-r from-saffron via-white to-tricolor_green rounded-[2.5rem] md:rounded-[3.5rem] opacity-10 blur group-focus-within:opacity-30 transition-opacity" />
+              
+              <div className="relative flex items-center bg-slate-50 border border-slate-200 rounded-[2.5rem] md:rounded-[3.5rem] shadow-sm overflow-hidden p-2 focus-within:bg-white focus-within:border-navy_blue/20 transition-all duration-500">
+                <input 
+                  type="text" 
+                  value={input}
+                  onChange={(e) => setInput(e.target.value)}
+                  onKeyDown={(e) => e.key === 'Enter' && handleSend()}
+                  placeholder="Ask anything about the democratic process..."
+                  className="flex-grow bg-transparent border-none px-6 py-4 md:py-6 text-sm md:text-xl font-bold text-navy_blue focus:ring-0 outline-none placeholder:text-slate-300"
+                  disabled={isLoading}
+                />
+                <button 
+                  onClick={handleSend}
+                  disabled={isLoading || !input.trim()}
+                  className="bg-navy_blue text-white p-4 md:p-6 rounded-3xl hover:bg-slate-800 disabled:bg-slate-200 disabled:text-slate-400 transition-all active:scale-95 shadow-xl shadow-navy_blue/20 m-1"
+                >
+                  <Send className="w-5 h-5 md:w-7 md:h-7" />
+                </button>
+              </div>
+            </div>
+            
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:gap-8 px-4">
+              <div className="flex items-center gap-2">
+                <AlertCircle className="w-3.5 h-3.5 text-slate-300" />
+                <p className="text-[8px] md:text-[10px] text-slate-400 font-black uppercase tracking-widest">Non-Partisan AI</p>
+              </div>
+              <div className="hidden sm:block h-1 w-1 bg-slate-200 rounded-full" />
+              <div className="flex items-center gap-2">
+                <ShieldCheck className="w-3.5 h-3.5 text-tricolor_green/50" />
+                <p className="text-[8px] md:text-[10px] text-slate-400 font-black uppercase tracking-widest">Ground Truth Validated</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

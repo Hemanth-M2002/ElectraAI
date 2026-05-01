@@ -1,0 +1,7244 @@
+[
+  {
+    "id": "1",
+    "name": "Gummidipoondi",
+    "district": "Thiruvallur",
+    "currentMLA": "T. J. Govindrajan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Senthil",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Kumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "Idumbavanam Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "Pon Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 1 located in Thiruvallur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "2",
+    "name": "Ponneri (SC)",
+    "district": "Thiruvallur",
+    "currentMLA": "Durai Chandrasekar",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "T. R. B. Rajaa",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Suresh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Arun",
+        "party": "NTK"
+      },
+      {
+        "name": "V. Ganesan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 2 located in Thiruvallur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "3",
+    "name": "Tiruttani",
+    "district": "Thiruvallur",
+    "currentMLA": "S. Chandran",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. K. Sekar Babu",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Prabhu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "Sathyakala",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Annamalai",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 3 located in Thiruvallur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "4",
+    "name": "Thiruvallur",
+    "district": "Thiruvallur",
+    "currentMLA": "V. G. Raajendran",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Sekar",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Ganesan",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Ganesan",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Muthu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 4 located in Thiruvallur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "5",
+    "name": "Poonamallee (SC)",
+    "district": "Thiruvallur",
+    "currentMLA": "A. Krishnaswamy",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "S. Suresh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Pandian",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Natarajan",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 5 located in Thiruvallur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "6",
+    "name": "Avadi",
+    "district": "Thiruvallur",
+    "currentMLA": "S. M. Nasar",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Kumar",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Murugan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Natarajan",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Selvam",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 6 located in Thiruvallur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "7",
+    "name": "Maduravoyal",
+    "district": "Chennai",
+    "currentMLA": "K. Ganapathy",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Selvam",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Baskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Bussy Anand",
+        "party": "TVK"
+      },
+      {
+        "name": "Kaliammal",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Sekar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 7 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "8",
+    "name": "Ambattur",
+    "district": "Chennai",
+    "currentMLA": "Joseph Samuel",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "A. Arun",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Arun",
+        "party": "AIADMK"
+      },
+      {
+        "name": "A. Sekar",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Selvam",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 8 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "9",
+    "name": "Madavaram",
+    "district": "Chennai",
+    "currentMLA": "S. Sudharsanam",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Dinesh",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Ganesan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "V. Dinesh",
+        "party": "TVK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 9 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "10",
+    "name": "Thiruvottiyur",
+    "district": "Chennai",
+    "currentMLA": "K. P. Shankar",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Vijay",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Selvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Murugan",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Suresh",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Senthil",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 10 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "11",
+    "name": "Dr. Radhakrishnan Nagar",
+    "district": "Chennai",
+    "currentMLA": "J. John Ebenezer",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Vijay",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Karthik",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Baskar",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Vijay",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Rajan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 11 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "12",
+    "name": "Perambur",
+    "district": "Chennai",
+    "currentMLA": "R. D. Sekar",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. D. Shekar",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Joseph Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Vetri Thamizhan",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Elumalai",
+        "party": "AIADMK"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 12 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "13",
+    "name": "Kolathur",
+    "district": "Chennai",
+    "currentMLA": "M. K. Stalin",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. K. Stalin",
+        "party": "DMK"
+      },
+      {
+        "name": "D. Jayakumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Bussy Anand",
+        "party": "TVK"
+      },
+      {
+        "name": "Soundara Pandian",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Annamalai",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 13 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "14",
+    "name": "Villivakkam",
+    "district": "Chennai",
+    "currentMLA": "A. Vetriazhagan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Ganesan",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Murugan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Bussy Anand",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Muthu",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 14 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "15",
+    "name": "Thiru-Vi-Ka-Nagar (SC)",
+    "district": "Chennai",
+    "currentMLA": "P. Sivakumar",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Baskar",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Ramesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Natarajan",
+        "party": "TVK"
+      },
+      {
+        "name": "P. Senthil",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Arun",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 15 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "16",
+    "name": "Egmore (SC)",
+    "district": "Chennai",
+    "currentMLA": "I. Paranthamen",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Selvam",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Arun",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Muthu",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Balu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 16 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "17",
+    "name": "Royapuram",
+    "district": "Chennai",
+    "currentMLA": "Idream R. Murthy",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Senthil",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Balu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Rajan",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Balu",
+        "party": "NTK"
+      },
+      {
+        "name": "C. P. Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 17 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "18",
+    "name": "Harbour",
+    "district": "Chennai",
+    "currentMLA": "P. K. Sekar Babu",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "A. Vijay",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Kumar",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Muthu",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Natarajan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 18 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "19",
+    "name": "Chepauk-Thiruvallikeni",
+    "district": "Chennai",
+    "currentMLA": "Udhayanidhi Stalin",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Vijay",
+        "party": "DMK"
+      },
+      {
+        "name": "O. Panneerselvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Murugan",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Sekar",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Senthil",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 19 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "20",
+    "name": "Thousand Lights",
+    "district": "Chennai",
+    "currentMLA": "Ezhilan Naganathan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Muthu",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Prabhu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ganesan",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Pandian",
+        "party": "NTK"
+      },
+      {
+        "name": "H. Raja",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 20 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "21",
+    "name": "Anna Nagar",
+    "district": "Chennai",
+    "currentMLA": "M. K. Mohan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "O. Panneerselvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Pandian",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Baskar",
+        "party": "NTK"
+      },
+      {
+        "name": "Pon Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 21 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "22",
+    "name": "Virugampakkam",
+    "district": "Chennai",
+    "currentMLA": "A. M. V. Prabhakara Raja",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Vijay",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Murugan",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Selvam",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 22 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "23",
+    "name": "Saidapet",
+    "district": "Chennai",
+    "currentMLA": "Ma.Subramanian",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Kumar",
+        "party": "DMK"
+      },
+      {
+        "name": "K. P. Munusamy",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. A. Chandrasekhar",
+        "party": "TVK"
+      },
+      {
+        "name": "Seeman",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 23 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "24",
+    "name": "Thiyagaraya Nagar",
+    "district": "Chennai",
+    "currentMLA": "J. Karunanithi",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Regupathy",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Kumar",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 24 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "25",
+    "name": "Mylapore",
+    "district": "Chennai",
+    "currentMLA": "Dha. Velu",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. K. Sekar Babu",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Sekar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Prabhu",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Suresh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 25 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "26",
+    "name": "Velachery",
+    "district": "Chennai",
+    "currentMLA": "Aassan Maulaana",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Kumar",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Selvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "V. Natarajan",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 26 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "27",
+    "name": "Shozhinganallur",
+    "district": "Chennai",
+    "currentMLA": "S. Aravind Ramesh",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. R. K. Panneerselvam",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Dinesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Senthil",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 27 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "28",
+    "name": "Alandur",
+    "district": "Chennai",
+    "currentMLA": "T. M. Anbarasan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Ramesh",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Saravanan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Sekar",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Saravanan",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Annamalai",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 28 located in Chennai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "29",
+    "name": "Sriperumbudur (SC)",
+    "district": "Kancheepuram",
+    "currentMLA": "K. Selvaperunthagai",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Muthu",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Saravanan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Senthil",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Annamalai",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 29 located in Kancheepuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "30",
+    "name": "Pallavaram",
+    "district": "Chengalpattu",
+    "currentMLA": "I. Karunanithi",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Rajan",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Prabhu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Murugan",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Kumar",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 30 located in Chengalpattu. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "31",
+    "name": "Tambaram",
+    "district": "Chengalpattu",
+    "currentMLA": "S. R. Raja",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. Suresh",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Murugan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "A. Pandian",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Suresh",
+        "party": "NTK"
+      },
+      {
+        "name": "H. Raja",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 31 located in Chengalpattu. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "32",
+    "name": "Chengalpattu",
+    "district": "Chengalpattu",
+    "currentMLA": "M. Varalakshmi",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Ramesh",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Kamaraj",
+        "party": "AIADMK"
+      },
+      {
+        "name": "A. Dinesh",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Saravanan",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Annamalai",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 32 located in Chengalpattu. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "33",
+    "name": "Thiruporur",
+    "district": "Chengalpattu",
+    "currentMLA": "S. S. Balaji",
+    "mlaParty": "VCK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Balu",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Selvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Arun",
+        "party": "TVK"
+      },
+      {
+        "name": "Idumbavanam Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "J. Natarajan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 33 located in Chengalpattu. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "34",
+    "name": "Cheyyur (SC)",
+    "district": "Chengalpattu",
+    "currentMLA": "M. Babu",
+    "mlaParty": "VCK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. R. K. Panneerselvam",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Ganesan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Natarajan",
+        "party": "TVK"
+      },
+      {
+        "name": "T. Suresh",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Ganesan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 34 located in Chengalpattu. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "35",
+    "name": "Maduranthakam (SC)",
+    "district": "Chengalpattu",
+    "currentMLA": "Maragatham Kumaravel",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. Suresh",
+        "party": "DMK"
+      },
+      {
+        "name": "T. Selvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Dinesh",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Kumar",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Saravanan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 35 located in Chengalpattu. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "36",
+    "name": "Uthiramerur",
+    "district": "Kancheepuram",
+    "currentMLA": "K. Sundar",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Selvam",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Kamaraj",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. A. Chandrasekhar",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Prabhu",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Balu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 36 located in Kancheepuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "37",
+    "name": "Kancheepuram",
+    "district": "Kancheepuram",
+    "currentMLA": "C. V. M. P. Ezhilarasan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Ponmudy",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Ganesan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Sekar",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 37 located in Kancheepuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "38",
+    "name": "Arakkonam (SC)",
+    "district": "Ranipet",
+    "currentMLA": "S. Ravi",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Baskar",
+        "party": "DMK"
+      },
+      {
+        "name": "T. Rajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Baskar",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Annamalai",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 38 located in Ranipet. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "39",
+    "name": "Sholingur",
+    "district": "Ranipet",
+    "currentMLA": "A. N. Munirathinam",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Suresh",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Kumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "Abhinaya",
+        "party": "NTK"
+      },
+      {
+        "name": "H. Raja",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 39 located in Ranipet. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "41",
+    "name": "Ranipet",
+    "district": "Ranipet",
+    "currentMLA": "R. Gandhi",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Thangam Thennarasu",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Murugan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Ganesan",
+        "party": "NTK"
+      },
+      {
+        "name": "J. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 41 located in Ranipet. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "42",
+    "name": "Arcot",
+    "district": "Ranipet",
+    "currentMLA": "J. L. Eswarappan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Muthu",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Suresh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Balu",
+        "party": "TVK"
+      },
+      {
+        "name": "P. Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Baskar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 42 located in Ranipet. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "40",
+    "name": "Katpadi",
+    "district": "Vellore",
+    "currentMLA": "Durai Murugan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. K. S. S. R. Ramachandran",
+        "party": "DMK"
+      },
+      {
+        "name": "S. Murugan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Rajan",
+        "party": "TVK"
+      },
+      {
+        "name": "Sathyakala",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 40 located in Vellore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "43",
+    "name": "Vellore",
+    "district": "Vellore",
+    "currentMLA": "P. Karthikeyan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Saravanan",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Vijayabaskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Selvam",
+        "party": "TVK"
+      },
+      {
+        "name": "Kaliammal",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Dinesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 43 located in Vellore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "44",
+    "name": "Anaikattu",
+    "district": "Vellore",
+    "currentMLA": "A. P. Nandakumar",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Pandian",
+        "party": "DMK"
+      },
+      {
+        "name": "T. Dinesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Saravanan",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Muthu",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 44 located in Vellore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "45",
+    "name": "Kilvaithinankuppam (SC)",
+    "district": "Vellore",
+    "currentMLA": "M. Jaganmoorthy",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Regupathy",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Suresh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 45 located in Vellore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "46",
+    "name": "Gudiyattam (SC)",
+    "district": "Vellore",
+    "currentMLA": "V. Amulu",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Karthik",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Vijayabaskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "P. Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 46 located in Vellore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "47",
+    "name": "Vaniyambadi",
+    "district": "Tirupathur",
+    "currentMLA": "G Sendhil Kumar",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "A. Selvam",
+        "party": "DMK"
+      },
+      {
+        "name": "S. Ramesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Muthu",
+        "party": "TVK"
+      },
+      {
+        "name": "Himayavan",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Prabhu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 47 located in Tirupathur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "48",
+    "name": "Ambur",
+    "district": "Tirupathur",
+    "currentMLA": "A. C. Vilwanathan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Balu",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Muthu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Rajan",
+        "party": "NTK"
+      },
+      {
+        "name": "J. Natarajan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 48 located in Tirupathur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "49",
+    "name": "Jolarpet",
+    "district": "Tirupathur",
+    "currentMLA": "K. Devaraji",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Senthil",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Vijayabaskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Bussy Anand",
+        "party": "TVK"
+      },
+      {
+        "name": "Idumbavanam Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "J. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 49 located in Tirupathur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "50",
+    "name": "Tirupattur(Vellore)",
+    "district": "Tirupathur",
+    "currentMLA": "A. Nallathambi",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Saravanan",
+        "party": "DMK"
+      },
+      {
+        "name": "K. A. Sengottaiyan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. A. Chandrasekhar",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Sekar",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Dinesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 50 located in Tirupathur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "51",
+    "name": "Uthangarai (SC)",
+    "district": "Krishnagiri",
+    "currentMLA": "T. M. Tamilselvam",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Karthik",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Ramesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "V. Rajan",
+        "party": "TVK"
+      },
+      {
+        "name": "P. Pandian",
+        "party": "NTK"
+      },
+      {
+        "name": "V. Ganesan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 51 located in Krishnagiri. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "52",
+    "name": "Bargur",
+    "district": "Krishnagiri",
+    "currentMLA": "D. Mathiazhagan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Durai Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Vijayabaskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Sekar",
+        "party": "TVK"
+      },
+      {
+        "name": "Himayavan",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Kumar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 52 located in Krishnagiri. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "53",
+    "name": "Krishnagiri",
+    "district": "Krishnagiri",
+    "currentMLA": "K. Ashok Kumar",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Thangam Thennarasu",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Pandian",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "V. Prabhu",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Suresh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 53 located in Krishnagiri. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "54",
+    "name": "Veppanahalli",
+    "district": "Krishnagiri",
+    "currentMLA": "K. P. Munusamy",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "E. V. Velu",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Ve. Shanmugam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Selvam",
+        "party": "TVK"
+      },
+      {
+        "name": "T. Murugan",
+        "party": "NTK"
+      },
+      {
+        "name": "V. Suresh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 54 located in Krishnagiri. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "55",
+    "name": "Hosur",
+    "district": "Krishnagiri",
+    "currentMLA": "Y. Prakaash",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "I. Periyasamy",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Rajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Saravanan",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Kumar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 55 located in Krishnagiri. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "56",
+    "name": "Thalli",
+    "district": "Krishnagiri",
+    "currentMLA": "T. Ramachandran",
+    "mlaParty": "CPI",
+    "nextElectionCandidates": [
+      {
+        "name": "K. K. S. S. R. Ramachandran",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Pandian",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Sekar",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "Nainar Nagendran",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 56 located in Krishnagiri. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "57",
+    "name": "Palacode",
+    "district": "Dharmapuri",
+    "currentMLA": "K. P. Anbalagan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "A. Muthu",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Rajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "T. Dinesh",
+        "party": "NTK"
+      },
+      {
+        "name": "V. Arun",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 57 located in Dharmapuri. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "58",
+    "name": "Pennagaram",
+    "district": "Dharmapuri",
+    "currentMLA": "G. K. Mani",
+    "mlaParty": "PMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Ganesan",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Thangamani",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Senthil",
+        "party": "TVK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "NTK"
+      },
+      {
+        "name": "H. Raja",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 58 located in Dharmapuri. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "59",
+    "name": "Dharmapuri",
+    "district": "Dharmapuri",
+    "currentMLA": "S. P. Venkateshwaran",
+    "mlaParty": "PMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Suresh",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Ramesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Dinesh",
+        "party": "TVK"
+      },
+      {
+        "name": "Idumbavanam Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Prabhu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 59 located in Dharmapuri. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "60",
+    "name": "Pappireddippatti",
+    "district": "Dharmapuri",
+    "currentMLA": "A. Govindasamy",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Rajan",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Thangamani",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Balu",
+        "party": "TVK"
+      },
+      {
+        "name": "Abhinaya",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Sekar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 60 located in Dharmapuri. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "61",
+    "name": "Harur (SC)",
+    "district": "Dharmapuri",
+    "currentMLA": "V. Sampathkumar",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. Sekar",
+        "party": "DMK"
+      },
+      {
+        "name": "S. Selvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Muthu",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Senthil",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Ganesan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 61 located in Dharmapuri. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "62",
+    "name": "Chengam (SC)",
+    "district": "Tiruvannamalai",
+    "currentMLA": "M. P. Giri",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. R. K. Panneerselvam",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Dinesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Muthu",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Ganesan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 62 located in Tiruvannamalai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "63",
+    "name": "Tiruvannamalai",
+    "district": "Tiruvannamalai",
+    "currentMLA": "E. V. Velu",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Ganesan",
+        "party": "DMK"
+      },
+      {
+        "name": "Dindigul C. Sreenivasan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "Sathyakala",
+        "party": "NTK"
+      },
+      {
+        "name": "C. P. Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 63 located in Tiruvannamalai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "64",
+    "name": "Kilpennathur",
+    "district": "Tiruvannamalai",
+    "currentMLA": "K. Pitchandi",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "E. V. Velu",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Thangamani",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Murugan",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Selvam",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Annamalai",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 64 located in Tiruvannamalai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "65",
+    "name": "Kalasapakkam",
+    "district": "Tiruvannamalai",
+    "currentMLA": "P. S. T. Saravanan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Selvam",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Rajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Ganesan",
+        "party": "TVK"
+      },
+      {
+        "name": "P. Arun",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Balu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 65 located in Tiruvannamalai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "66",
+    "name": "Polur",
+    "district": "Tiruvannamalai",
+    "currentMLA": "S. S. Krishnamoorthy",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Arun",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Kamaraj",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Kumar",
+        "party": "NTK"
+      },
+      {
+        "name": "C. P. Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 66 located in Tiruvannamalai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "67",
+    "name": "Arani",
+    "district": "Tiruvannamalai",
+    "currentMLA": "Sevvoor S. Ramachandran",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Anbil Mahesh Poyyamozhi",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Murugan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "Seeman",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Dinesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 67 located in Tiruvannamalai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "68",
+    "name": "Cheyyar",
+    "district": "Tiruvannamalai",
+    "currentMLA": "O. Jothi",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. Prabhu",
+        "party": "DMK"
+      },
+      {
+        "name": "O. Panneerselvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. A. Chandrasekhar",
+        "party": "TVK"
+      },
+      {
+        "name": "Vetri",
+        "party": "NTK"
+      },
+      {
+        "name": "Vanathi Srinivasan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 68 located in Tiruvannamalai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "69",
+    "name": "Vandavasi (SC)",
+    "district": "Tiruvannamalai",
+    "currentMLA": "S. Ambethkumar",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. N. Nehru",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Dinesh",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Vijay",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Senthil",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 69 located in Tiruvannamalai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "70",
+    "name": "Gingee",
+    "district": "Villupuram",
+    "currentMLA": "K. S. Masthan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Pandian",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Sekar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Mansoor Ali Khan",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Suresh",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Saravanan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 70 located in Villupuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "71",
+    "name": "Mailam",
+    "district": "Villupuram",
+    "currentMLA": "C. Sivakumar",
+    "mlaParty": "PMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Saravanan",
+        "party": "DMK"
+      },
+      {
+        "name": "T. Rajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. A. Chandrasekhar",
+        "party": "TVK"
+      },
+      {
+        "name": "Idumbavanam Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Annamalai",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 71 located in Villupuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "72",
+    "name": "Tindivanam",
+    "district": "Villupuram",
+    "currentMLA": "P. Arjunan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Durai Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "D. Jayakumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "Seeman",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 72 located in Villupuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "73",
+    "name": "Vanur (SC)",
+    "district": "Villupuram",
+    "currentMLA": "M. Chakrapani",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "A. Sekar",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Arun",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Sekar",
+        "party": "NTK"
+      },
+      {
+        "name": "Vanathi Srinivasan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 73 located in Villupuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "74",
+    "name": "Villupuram",
+    "district": "Villupuram",
+    "currentMLA": "R. Lakshmanan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Rajan",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Baskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Ganesan",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Selvam",
+        "party": "NTK"
+      },
+      {
+        "name": "Nainar Nagendran",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 74 located in Villupuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "75",
+    "name": "Vikravandi",
+    "district": "Villupuram",
+    "currentMLA": "N. Pugazhenthi",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Ganesan",
+        "party": "DMK"
+      },
+      {
+        "name": "K. A. Sengottaiyan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Murugan",
+        "party": "TVK"
+      },
+      {
+        "name": "Abhinaya",
+        "party": "NTK"
+      },
+      {
+        "name": "Vanathi Srinivasan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 75 located in Villupuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "76",
+    "name": "Tirukkoyilur",
+    "district": "Villupuram",
+    "currentMLA": "K. Ponmudy",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Kumar",
+        "party": "DMK"
+      },
+      {
+        "name": "Dindigul C. Sreenivasan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "A. Natarajan",
+        "party": "TVK"
+      },
+      {
+        "name": "Himayavan",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Rajan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 76 located in Villupuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "77",
+    "name": "Ulundurpettai",
+    "district": "Kallakurichi",
+    "currentMLA": "A. J. Manikannan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Durai Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "Dindigul C. Sreenivasan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "V. Saravanan",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Ganesan",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Saravanan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 77 located in Kallakurichi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "78",
+    "name": "Rishivandiyam",
+    "district": "Kallakurichi",
+    "currentMLA": "K. Karthikeyan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "V. Murugan",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Kumar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 78 located in Kallakurichi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "79",
+    "name": "Sankarapuram",
+    "district": "Kallakurichi",
+    "currentMLA": "T. Udhayasuriyan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Sekar",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Thangamani",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "Vetri",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 79 located in Kallakurichi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "80",
+    "name": "Kallakurichi (SC)",
+    "district": "Kallakurichi",
+    "currentMLA": "M. Senthilkumar",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Durai Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Natarajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Muthu",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Prabhu",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Pandian",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 80 located in Kallakurichi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "81",
+    "name": "Gangavalli (SC)",
+    "district": "Salem",
+    "currentMLA": "A. Nallathambi",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Dinesh",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Ve. Shanmugam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Saravanan",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Balu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 81 located in Salem. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "82",
+    "name": "Attur (SC)",
+    "district": "Salem",
+    "currentMLA": "A. P. Jayasankaran",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Pandian",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Kumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Balu",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Suresh",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Prabhu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 82 located in Salem. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "83",
+    "name": "Yercaud (ST)",
+    "district": "Salem",
+    "currentMLA": "G. Chitra",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Natarajan",
+        "party": "DMK"
+      },
+      {
+        "name": "T. Pandian",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Natarajan",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Saravanan",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Ramesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 83 located in Salem. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "84",
+    "name": "Omalur",
+    "district": "Salem",
+    "currentMLA": "R. Mani",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "A. Arun",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Suresh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Sekar",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Dinesh",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Prabhu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 84 located in Salem. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "85",
+    "name": "Mettur",
+    "district": "Salem",
+    "currentMLA": "S. Sadhasivam",
+    "mlaParty": "PMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Edappadi K. Palaniswami",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. M. Selvaganapathy",
+        "party": "DMK"
+      },
+      {
+        "name": "Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Dinesh",
+        "party": "NTK"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 85 located in Salem. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "86",
+    "name": "Edappadi",
+    "district": "Salem",
+    "currentMLA": "Edappadi K. Palaniswami",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Edappadi K. Palaniswami",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. M. Selvaganapathy",
+        "party": "DMK"
+      },
+      {
+        "name": "Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Dinesh",
+        "party": "NTK"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 86 located in Salem. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "87",
+    "name": "Sankari",
+    "district": "Salem",
+    "currentMLA": "S. Sundararajan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. Dinesh",
+        "party": "DMK"
+      },
+      {
+        "name": "S. Balu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Pandian",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Dinesh",
+        "party": "NTK"
+      },
+      {
+        "name": "C. P. Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 87 located in Salem. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "88",
+    "name": "Salem (West)",
+    "district": "Salem",
+    "currentMLA": "Arul Ramadas",
+    "mlaParty": "PMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. K. S. S. R. Ramachandran",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Ganesan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Mansoor Ali Khan",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Baskar",
+        "party": "NTK"
+      },
+      {
+        "name": "J. Kumar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 88 located in Salem. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "89",
+    "name": "Salem (North)",
+    "district": "Salem",
+    "currentMLA": "R. Rajendran",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Sekar",
+        "party": "DMK"
+      },
+      {
+        "name": "S. Ramesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "Vetri",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Prabhu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 89 located in Salem. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "90",
+    "name": "Salem (South)",
+    "district": "Salem",
+    "currentMLA": "E. Balasubramanian",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Sekar",
+        "party": "DMK"
+      },
+      {
+        "name": "T. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "T. Murugan",
+        "party": "NTK"
+      },
+      {
+        "name": "Pon Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 90 located in Salem. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "91",
+    "name": "Veerapandi",
+    "district": "Salem",
+    "currentMLA": "M. Rajamuthu",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Regupathy",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Vijayabaskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "H. Raja",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 91 located in Salem. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "92",
+    "name": "Rasipuram (SC)",
+    "district": "Namakkal",
+    "currentMLA": "M. Mathiventhan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Regupathy",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Arun",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Saravanan",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 92 located in Namakkal. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "93",
+    "name": "Senthamangalam (ST)",
+    "district": "Namakkal",
+    "currentMLA": "K. Ponnusamy",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "E. V. Velu",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Bussy Anand",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Suresh",
+        "party": "NTK"
+      },
+      {
+        "name": "C. P. Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 93 located in Namakkal. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "94",
+    "name": "Namakkal",
+    "district": "Namakkal",
+    "currentMLA": "P. Ramalingam",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Anbil Mahesh Poyyamozhi",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Rajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "Kaliammal",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 94 located in Namakkal. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "95",
+    "name": "Paramathi-Velur",
+    "district": "Namakkal",
+    "currentMLA": "S. Sekar",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Arun",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Kamaraj",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Saravanan",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Balu",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 95 located in Namakkal. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "96",
+    "name": "Tiruchengode",
+    "district": "Namakkal",
+    "currentMLA": "E. R. Eswaran",
+    "mlaParty": "KMDK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. K. Sekar Babu",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Arun",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Ganesan",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Kumar",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Saravanan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 96 located in Namakkal. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "97",
+    "name": "Kumarapalayam",
+    "district": "Namakkal",
+    "currentMLA": "P. Thangamani",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Baskar",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Kumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Selvam",
+        "party": "TVK"
+      },
+      {
+        "name": "Vetri",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Ganesan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 97 located in Namakkal. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "98",
+    "name": "Erode (East)",
+    "district": "Erode",
+    "currentMLA": "Thirumagan Evera",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "Anbil Mahesh Poyyamozhi",
+        "party": "DMK"
+      },
+      {
+        "name": "T. Prabhu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Mansoor Ali Khan",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 98 located in Erode. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "99",
+    "name": "Erode (West)",
+    "district": "Erode",
+    "currentMLA": "S. Muthusamy",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "E. V. Velu",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Pandian",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Rajan",
+        "party": "TVK"
+      },
+      {
+        "name": "T. Murugan",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Saravanan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 99 located in Erode. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "100",
+    "name": "Modakkurichi",
+    "district": "Erode",
+    "currentMLA": "Dr. C.K. Saraswathi",
+    "mlaParty": "BJP",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Regupathy",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Vijay",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Kumar",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Selvam",
+        "party": "NTK"
+      },
+      {
+        "name": "Nainar Nagendran",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 100 located in Erode. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "101",
+    "name": "Dharapuram (SC)",
+    "district": "Tiruppur",
+    "currentMLA": "N. Kayalvizhi",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Prabhu",
+        "party": "DMK"
+      },
+      {
+        "name": "O. Panneerselvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. A. Chandrasekhar",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Natarajan",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Dinesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 101 located in Tiruppur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "102",
+    "name": "Kangayam",
+    "district": "Tiruppur",
+    "currentMLA": "M. P. Saminathan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. N. Nehru",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Kumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "Sathyakala",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 102 located in Tiruppur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "103",
+    "name": "Perundurai",
+    "district": "Erode",
+    "currentMLA": "S. Jayakumar",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Suresh",
+        "party": "DMK"
+      },
+      {
+        "name": "D. Jayakumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Ramesh",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Muthu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 103 located in Erode. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "104",
+    "name": "Bhavani",
+    "district": "Erode",
+    "currentMLA": "K. C. Karuppannan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "A. Senthil",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Thangamani",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "Abhinaya",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Balu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 104 located in Erode. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "105",
+    "name": "Anthiyur",
+    "district": "Erode",
+    "currentMLA": "A. G. Venkatachalam",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Durai Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Prabhu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "T. Sekar",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Balu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 105 located in Erode. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "106",
+    "name": "Gobichettipalayam",
+    "district": "Erode",
+    "currentMLA": "K. A. Sengottaiyan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. K. S. S. R. Ramachandran",
+        "party": "DMK"
+      },
+      {
+        "name": "S. P. Velumani",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Mansoor Ali Khan",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Ganesan",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Ramesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 106 located in Erode. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "107",
+    "name": "Bhavanisagar (SC)",
+    "district": "Erode",
+    "currentMLA": "A. Bannari",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Baskar",
+        "party": "DMK"
+      },
+      {
+        "name": "D. Jayakumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Muthu",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 107 located in Erode. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "108",
+    "name": "Udhagamandalam",
+    "district": "Nilgiris",
+    "currentMLA": "R. Ganesh",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Selvam",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Rajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Ganesan",
+        "party": "TVK"
+      },
+      {
+        "name": "Seeman",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 108 located in Nilgiris. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "109",
+    "name": "Gudalur (SC)",
+    "district": "Nilgiris",
+    "currentMLA": "Pon. Jayaseelan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Saravanan",
+        "party": "TVK"
+      },
+      {
+        "name": "P. Kumar",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Sekar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 109 located in Nilgiris. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "110",
+    "name": "Coonoor",
+    "district": "Nilgiris",
+    "currentMLA": "K. Ramachandran",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Dinesh",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Baskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "V. Arun",
+        "party": "TVK"
+      },
+      {
+        "name": "Idumbavanam Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Sekar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 110 located in Nilgiris. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "111",
+    "name": "Mettupalayam",
+    "district": "Coimbatore",
+    "currentMLA": "A. K. Selvaraj",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Pandian",
+        "party": "DMK"
+      },
+      {
+        "name": "K. P. Munusamy",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Kumar",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Ramesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 111 located in Coimbatore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "112",
+    "name": "Avanashi (SC)",
+    "district": "Tiruppur",
+    "currentMLA": "P. Dhanapal",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Karthik",
+        "party": "DMK"
+      },
+      {
+        "name": "O. Panneerselvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Kumar",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Dinesh",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Balu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 112 located in Tiruppur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "113",
+    "name": "Tiruppur (North)",
+    "district": "Tiruppur",
+    "currentMLA": "K. N. Vijayakumar",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Suresh",
+        "party": "DMK"
+      },
+      {
+        "name": "K. P. Munusamy",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "T. Arun",
+        "party": "NTK"
+      },
+      {
+        "name": "H. Raja",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 113 located in Tiruppur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "114",
+    "name": "Tiruppur (South)",
+    "district": "Tiruppur",
+    "currentMLA": "K. Selvaraj",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Arun",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Baskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Murugan",
+        "party": "TVK"
+      },
+      {
+        "name": "V. Balu",
+        "party": "NTK"
+      },
+      {
+        "name": "J. Pandian",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 114 located in Tiruppur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "115",
+    "name": "Palladam",
+    "district": "Tiruppur",
+    "currentMLA": "M. S. M. Anandan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. K. Sekar Babu",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Baskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Natarajan",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Kumar",
+        "party": "NTK"
+      },
+      {
+        "name": "V. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 115 located in Tiruppur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "116",
+    "name": "Sulur",
+    "district": "Coimbatore",
+    "currentMLA": "V. P. Kandasamy",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Suresh",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Kumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Ganesan",
+        "party": "TVK"
+      },
+      {
+        "name": "V. Ganesan",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Arun",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 116 located in Coimbatore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "117",
+    "name": "Kavundampalayam",
+    "district": "Coimbatore",
+    "currentMLA": "G. Arunkumar",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Kumar",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Dinesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Pandian",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Sekar",
+        "party": "NTK"
+      },
+      {
+        "name": "H. Raja",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 117 located in Coimbatore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "118",
+    "name": "Coimbatore (North)",
+    "district": "Coimbatore",
+    "currentMLA": "Amman K. Arjunan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "E. V. Velu",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Sekar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ganesan",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Dinesh",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 118 located in Coimbatore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "119",
+    "name": "Thondamuthur",
+    "district": "Coimbatore",
+    "currentMLA": "S. P. Velumani",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. K. Sekar Babu",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Thangamani",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Dinesh",
+        "party": "TVK"
+      },
+      {
+        "name": "Vetri",
+        "party": "NTK"
+      },
+      {
+        "name": "V. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 119 located in Coimbatore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "120",
+    "name": "Coimbatore (South)",
+    "district": "Coimbatore",
+    "currentMLA": "Vanathi Srinivasan",
+    "mlaParty": "BJP",
+    "nextElectionCandidates": [
+      {
+        "name": "Thangam Thennarasu",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Balu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Rajan",
+        "party": "TVK"
+      },
+      {
+        "name": "Himayavan",
+        "party": "NTK"
+      },
+      {
+        "name": "Vanathi Srinivasan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 120 located in Coimbatore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "121",
+    "name": "Singanallur",
+    "district": "Coimbatore",
+    "currentMLA": "K. R. Jayaram",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Pandian",
+        "party": "DMK"
+      },
+      {
+        "name": "S. P. Velumani",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Saravanan",
+        "party": "TVK"
+      },
+      {
+        "name": "T. Senthil",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Sekar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 121 located in Coimbatore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "122",
+    "name": "Kinathukadavu",
+    "district": "Coimbatore",
+    "currentMLA": "S. Damodaran",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Ramesh",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Muthu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Prabhu",
+        "party": "TVK"
+      },
+      {
+        "name": "Idumbavanam Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "Pon Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 122 located in Coimbatore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "123",
+    "name": "Pollachi",
+    "district": "Coimbatore",
+    "currentMLA": "Pollachi V. Jayaraman",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Prabhu",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Natarajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Murugan",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Muthu",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Ganesan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 123 located in Coimbatore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "124",
+    "name": "Valparai (SC)",
+    "district": "Coimbatore",
+    "currentMLA": "T. K. Amulkandasami",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Rajan",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Baskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Saravanan",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Senthil",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Pandian",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 124 located in Coimbatore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "125",
+    "name": "Udumalaipettai",
+    "district": "Tiruppur",
+    "currentMLA": "Udumalai K. Radhakrishnan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Pandian",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Balu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Kumar",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Balu",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Prabhu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 125 located in Tiruppur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "126",
+    "name": "Madathukulam",
+    "district": "Tiruppur",
+    "currentMLA": "C. Mahendran",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Sekar",
+        "party": "DMK"
+      },
+      {
+        "name": "K. P. Munusamy",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Prabhu",
+        "party": "TVK"
+      },
+      {
+        "name": "Sathyakala",
+        "party": "NTK"
+      },
+      {
+        "name": "J. Pandian",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 126 located in Tiruppur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "127",
+    "name": "Palani",
+    "district": "Dindigul",
+    "currentMLA": "I. P. Senthil Kumar",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Ramesh",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Prabhu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Arun",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Baskar",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 127 located in Dindigul. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "128",
+    "name": "Oddanchatram",
+    "district": "Dindigul",
+    "currentMLA": "R. Sakkarapani",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Baskar",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Vijayabaskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Prabhu",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Arun",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 128 located in Dindigul. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "129",
+    "name": "Athoor",
+    "district": "Dindigul",
+    "currentMLA": "I. Periyasamy",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Suresh",
+        "party": "DMK"
+      },
+      {
+        "name": "O. Panneerselvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Dinesh",
+        "party": "NTK"
+      },
+      {
+        "name": "C. P. Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 129 located in Dindigul. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "130",
+    "name": "Nilakottai (SC)",
+    "district": "Dindigul",
+    "currentMLA": "S. Thenmozhi",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Baskar",
+        "party": "DMK"
+      },
+      {
+        "name": "S. Arun",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Natarajan",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Suresh",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Baskar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 130 located in Dindigul. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "131",
+    "name": "Natham",
+    "district": "Dindigul",
+    "currentMLA": "Natham R. Viswanathan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Dinesh",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Sekar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "A. Saravanan",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Balu",
+        "party": "NTK"
+      },
+      {
+        "name": "V. Selvam",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 131 located in Dindigul. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "132",
+    "name": "Dindigul",
+    "district": "Dindigul",
+    "currentMLA": "Dindigul C. Sreenivaasan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. Arun",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Suresh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "A. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "Himayavan",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 132 located in Dindigul. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "133",
+    "name": "Vedasandur",
+    "district": "Dindigul",
+    "currentMLA": "S. Gandhirajan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Thangam Thennarasu",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Arun",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. A. Chandrasekhar",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Rajan",
+        "party": "NTK"
+      },
+      {
+        "name": "C. P. Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 133 located in Dindigul. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "134",
+    "name": "Aravakurichi",
+    "district": "Karur",
+    "currentMLA": "R. Elango",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Sekar",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Kamaraj",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Murugan",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Murugan",
+        "party": "NTK"
+      },
+      {
+        "name": "J. Saravanan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 134 located in Karur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "135",
+    "name": "Karur",
+    "district": "Karur",
+    "currentMLA": "V. Senthilbalaji",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Ganesan",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Muthu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Balu",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Saravanan",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Selvam",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 135 located in Karur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "136",
+    "name": "Krishnarayapuram (SC)",
+    "district": "Karur",
+    "currentMLA": "K. Sivagama Sundari",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Suresh",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Suresh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Saravanan",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Suresh",
+        "party": "NTK"
+      },
+      {
+        "name": "Pon Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 136 located in Karur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "137",
+    "name": "Kulithalai",
+    "district": "Karur",
+    "currentMLA": "R. Manickam",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. Dinesh",
+        "party": "DMK"
+      },
+      {
+        "name": "S. Arun",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Selvam",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Kumar",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Balu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 137 located in Karur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "138",
+    "name": "Manapaarai",
+    "district": "Tiruchirappalli",
+    "currentMLA": "P. Abdul Samad",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Ve. Shanmugam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Bussy Anand",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Balu",
+        "party": "NTK"
+      },
+      {
+        "name": "V. Muthu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 138 located in Tiruchirappalli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "139",
+    "name": "Srirangam",
+    "district": "Tiruchirappalli",
+    "currentMLA": "M. Palaniyandi",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Saravanan",
+        "party": "DMK"
+      },
+      {
+        "name": "T. Prabhu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Kumar",
+        "party": "TVK"
+      },
+      {
+        "name": "V. Balu",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Annamalai",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 139 located in Tiruchirappalli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "140",
+    "name": "Tiruchirappalli (West)",
+    "district": "Tiruchirappalli",
+    "currentMLA": "K. N. Nehru",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Natarajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Muthu",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Pandian",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 140 located in Tiruchirappalli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "141",
+    "name": "Tiruchirappalli (East)",
+    "district": "Tiruchirappalli",
+    "currentMLA": "Inigo S. Irudayaraj",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Regupathy",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Suresh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Arun",
+        "party": "TVK"
+      },
+      {
+        "name": "Himayavan",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Dinesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 141 located in Tiruchirappalli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "142",
+    "name": "Thiruverumbur",
+    "district": "Tiruchirappalli",
+    "currentMLA": "Anbil Mahesh",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Anbil Mahesh Poyyamozhi",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Vijay",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "T. Arun",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Rajan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 142 located in Tiruchirappalli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "143",
+    "name": "Lalgudi",
+    "district": "Tiruchirappalli",
+    "currentMLA": "A. Soundara Pandian",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. Baskar",
+        "party": "DMK"
+      },
+      {
+        "name": "Dindigul C. Sreenivasan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "A. Sekar",
+        "party": "TVK"
+      },
+      {
+        "name": "Abhinaya",
+        "party": "NTK"
+      },
+      {
+        "name": "Pon Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 143 located in Tiruchirappalli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "144",
+    "name": "Manachanallur",
+    "district": "Tiruchirappalli",
+    "currentMLA": "S. Kathiravan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Ganesan",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Muthu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Murugan",
+        "party": "TVK"
+      },
+      {
+        "name": "V. Senthil",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 144 located in Tiruchirappalli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "145",
+    "name": "Musiri",
+    "district": "Tiruchirappalli",
+    "currentMLA": "N. Thiyagarajan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Rajan",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Suresh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "Himayavan",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 145 located in Tiruchirappalli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "146",
+    "name": "Thuraiyur (SC)",
+    "district": "Tiruchirappalli",
+    "currentMLA": "S. Stalinkumar",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Senthil",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Kamaraj",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Selvam",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Selvam",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Ramesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 146 located in Tiruchirappalli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "147",
+    "name": "Perambalur (SC)",
+    "district": "Perambalur",
+    "currentMLA": "M. Prabhakaran",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Natarajan",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Vijayabaskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Prabhu",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Vijay",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 147 located in Perambalur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "148",
+    "name": "Kunnam",
+    "district": "Perambalur",
+    "currentMLA": "S. S. Sivasankar",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Rajan",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Ramesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Mansoor Ali Khan",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Senthil",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 148 located in Perambalur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "149",
+    "name": "Ariyalur",
+    "district": "Ariyalur",
+    "currentMLA": "K. Chinnappa",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Vijay",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Sekar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Prabhu",
+        "party": "TVK"
+      },
+      {
+        "name": "Idumbavanam Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Rajan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 149 located in Ariyalur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "150",
+    "name": "Jayankondam",
+    "district": "Ariyalur",
+    "currentMLA": "Ka. So. Ka. Kannan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Selvam",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Karthik",
+        "party": "AIADMK"
+      },
+      {
+        "name": "V. Muthu",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Muthu",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 150 located in Ariyalur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "151",
+    "name": "Tittakudi (SC)",
+    "district": "Cuddalore",
+    "currentMLA": "C. V. Ganesan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. K. Sekar Babu",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Kamaraj",
+        "party": "AIADMK"
+      },
+      {
+        "name": "V. Rajan",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Balu",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Annamalai",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 151 located in Cuddalore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "152",
+    "name": "Vriddhachalam",
+    "district": "Cuddalore",
+    "currentMLA": "R. Radhakrishnan",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "Anbil Mahesh Poyyamozhi",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Pandian",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Prabhu",
+        "party": "NTK"
+      },
+      {
+        "name": "Pon Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 152 located in Cuddalore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "153",
+    "name": "Neyveli",
+    "district": "Cuddalore",
+    "currentMLA": "Saba Rajendran",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Vijay",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Suresh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Dinesh",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 153 located in Cuddalore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "154",
+    "name": "Panruti",
+    "district": "Cuddalore",
+    "currentMLA": "T. Velmurugan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Karthik",
+        "party": "DMK"
+      },
+      {
+        "name": "Dindigul C. Sreenivasan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Baskar",
+        "party": "TVK"
+      },
+      {
+        "name": "Idumbavanam Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Selvam",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 154 located in Cuddalore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "155",
+    "name": "Cuddalore",
+    "district": "Cuddalore",
+    "currentMLA": "G. Iyappan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Regupathy",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Vijayabaskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Arun",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Balu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 155 located in Cuddalore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "156",
+    "name": "Kurinjipadi",
+    "district": "Cuddalore",
+    "currentMLA": "M. R. K. Panneerselvam",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Muthu",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Murugan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Rajan",
+        "party": "TVK"
+      },
+      {
+        "name": "V. Prabhu",
+        "party": "NTK"
+      },
+      {
+        "name": "V. Sekar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 156 located in Cuddalore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "157",
+    "name": "Bhuvanagiri",
+    "district": "Cuddalore",
+    "currentMLA": "A. Arunmozhithevan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Natarajan",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Murugan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "A. Kumar",
+        "party": "TVK"
+      },
+      {
+        "name": "Himayavan",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Arun",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 157 located in Cuddalore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "158",
+    "name": "Chidambaram",
+    "district": "Cuddalore",
+    "currentMLA": "K. A. Pandian",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Saravanan",
+        "party": "DMK"
+      },
+      {
+        "name": "S. Sekar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "P. Muthu",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 158 located in Cuddalore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "159",
+    "name": "Kattumannarkoil (SC)",
+    "district": "Cuddalore",
+    "currentMLA": "Sinthanai Selvan",
+    "mlaParty": "VCK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Pandian",
+        "party": "DMK"
+      },
+      {
+        "name": "T. Prabhu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Natarajan",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Murugan",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Ramesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 159 located in Cuddalore. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "160",
+    "name": "Sirkazhi (SC)",
+    "district": "Mayiladuthurai",
+    "currentMLA": "M. Panneerselvam",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Suresh",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Vijay",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Dinesh",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Ramesh",
+        "party": "NTK"
+      },
+      {
+        "name": "J. Dinesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 160 located in Mayiladuthurai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "161",
+    "name": "Mayiladuthurai",
+    "district": "Mayiladuthurai",
+    "currentMLA": "S. Rajakumar",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "E. V. Velu",
+        "party": "DMK"
+      },
+      {
+        "name": "T. Saravanan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "A. Rajan",
+        "party": "TVK"
+      },
+      {
+        "name": "V. Ramesh",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 161 located in Mayiladuthurai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "162",
+    "name": "Poompuhar",
+    "district": "Mayiladuthurai",
+    "currentMLA": "Nivedha M. Murugan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. Vijay",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Karthik",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Arun",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 162 located in Mayiladuthurai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "163",
+    "name": "Nagapattinam",
+    "district": "Nagapattinam",
+    "currentMLA": "Aloor Shanavas",
+    "mlaParty": "VCK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Ponmudy",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "V. Natarajan",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 163 located in Nagapattinam. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "164",
+    "name": "Kilvelur (SC)",
+    "district": "Nagapattinam",
+    "currentMLA": "Nagai Maali (A) P. Mahalingam",
+    "mlaParty": "CPI(M)",
+    "nextElectionCandidates": [
+      {
+        "name": "M. R. K. Panneerselvam",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Dinesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Muthu",
+        "party": "TVK"
+      },
+      {
+        "name": "Sathyakala",
+        "party": "NTK"
+      },
+      {
+        "name": "C. P. Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 164 located in Nagapattinam. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "165",
+    "name": "Vedaranyam",
+    "district": "Nagapattinam",
+    "currentMLA": "O. S. Manian",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Regupathy",
+        "party": "DMK"
+      },
+      {
+        "name": "D. Jayakumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Natarajan",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Ramesh",
+        "party": "NTK"
+      },
+      {
+        "name": "Vanathi Srinivasan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 165 located in Nagapattinam. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "166",
+    "name": "Thiruthuraipoondi (SC)",
+    "district": "Tiruvarur",
+    "currentMLA": "K. Marimuthu",
+    "mlaParty": "CPI",
+    "nextElectionCandidates": [
+      {
+        "name": "T. R. B. Rajaa",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Vijay",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Baskar",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Ganesan",
+        "party": "NTK"
+      },
+      {
+        "name": "Pon Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 166 located in Tiruvarur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "167",
+    "name": "Mannargudi",
+    "district": "Tiruvarur",
+    "currentMLA": "Dr. T. R. B. Rajaa",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Ganesan",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Kumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Prabhu",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Ganesan",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 167 located in Tiruvarur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "168",
+    "name": "Thiruvarur",
+    "district": "Tiruvarur",
+    "currentMLA": "K. Poondi Kalaivanan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Kumar",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Dinesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Baskar",
+        "party": "TVK"
+      },
+      {
+        "name": "Abhinaya",
+        "party": "NTK"
+      },
+      {
+        "name": "C. P. Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 168 located in Tiruvarur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "169",
+    "name": "Nannilam",
+    "district": "Tiruvarur",
+    "currentMLA": "R. Kamaraj",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Arun",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Baskar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Senthil",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Murugan",
+        "party": "NTK"
+      },
+      {
+        "name": "C. P. Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 169 located in Tiruvarur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "170",
+    "name": "Thiruvidaimarudur (SC)",
+    "district": "Thanjavur",
+    "currentMLA": "Govi. Chezhiyan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Prabhu",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Pandian",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Selvam",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Balu",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Arun",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 170 located in Thanjavur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "171",
+    "name": "Kumbakonam",
+    "district": "Thanjavur",
+    "currentMLA": "G. Anbalagan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "I. Periyasamy",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Ramesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Sekar",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 171 located in Thanjavur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "172",
+    "name": "Papanasam",
+    "district": "Thanjavur",
+    "currentMLA": "Dr. M. H. Jawahirullah",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Ganesan",
+        "party": "DMK"
+      },
+      {
+        "name": "S. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "Seeman",
+        "party": "NTK"
+      },
+      {
+        "name": "H. Raja",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 172 located in Thanjavur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "173",
+    "name": "Thiruvaiyaru",
+    "district": "Thanjavur",
+    "currentMLA": "Durai Chandrasekaran",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Saravanan",
+        "party": "DMK"
+      },
+      {
+        "name": "K. A. Sengottaiyan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. A. Chandrasekhar",
+        "party": "TVK"
+      },
+      {
+        "name": "V. Dinesh",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 173 located in Thanjavur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "174",
+    "name": "Thanjavur",
+    "district": "Thanjavur",
+    "currentMLA": "T. K. G. Neelamegam",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Anbil Mahesh Poyyamozhi",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Senthil",
+        "party": "TVK"
+      },
+      {
+        "name": "Sathyakala",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Dinesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 174 located in Thanjavur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "175",
+    "name": "Orathanadu",
+    "district": "Thanjavur",
+    "currentMLA": "R. Vaithilingam",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. K. Sekar Babu",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Saravanan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Muthu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 175 located in Thanjavur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "176",
+    "name": "Pattukkottai",
+    "district": "Thanjavur",
+    "currentMLA": "K. Annadurai",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Arun",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Kumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Dinesh",
+        "party": "TVK"
+      },
+      {
+        "name": "P. Senthil",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Kumar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 176 located in Thanjavur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "177",
+    "name": "Peravurani",
+    "district": "Thanjavur",
+    "currentMLA": "Peravurani N. Ashokkumar",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Saravanan",
+        "party": "DMK"
+      },
+      {
+        "name": "O. Panneerselvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Muthu",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Arun",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Senthil",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 177 located in Thanjavur. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "178",
+    "name": "Gandharvakottai (SC)",
+    "district": "Pudukottai",
+    "currentMLA": "M. Chinnadurai",
+    "mlaParty": "CPI(M)",
+    "nextElectionCandidates": [
+      {
+        "name": "P. Suresh",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Saravanan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Muthu",
+        "party": "TVK"
+      },
+      {
+        "name": "P. Dinesh",
+        "party": "NTK"
+      },
+      {
+        "name": "H. Raja",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 178 located in Pudukottai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "179",
+    "name": "Viralimalai",
+    "district": "Pudukottai",
+    "currentMLA": "C. Vijayabaskar",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Prabhu",
+        "party": "DMK"
+      },
+      {
+        "name": "K. P. Munusamy",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Arun",
+        "party": "NTK"
+      },
+      {
+        "name": "J. Sekar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 179 located in Pudukottai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "180",
+    "name": "Pudukkottai",
+    "district": "Pudukottai",
+    "currentMLA": "Dr. V. Muthuraja",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Senthil",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "A. Dinesh",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Senthil",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Muthu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 180 located in Pudukottai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "181",
+    "name": "Thirumayam",
+    "district": "Pudukottai",
+    "currentMLA": "S. Regupathy",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Muthu",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Muthu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Muthu",
+        "party": "TVK"
+      },
+      {
+        "name": "V. Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Kumar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 181 located in Pudukottai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "182",
+    "name": "Alangudi",
+    "district": "Pudukottai",
+    "currentMLA": "Meyyanathan Siva V",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. N. Nehru",
+        "party": "DMK"
+      },
+      {
+        "name": "Dindigul C. Sreenivasan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Arun",
+        "party": "TVK"
+      },
+      {
+        "name": "Sathyakala",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Suresh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 182 located in Pudukottai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "183",
+    "name": "Aranthangi",
+    "district": "Pudukottai",
+    "currentMLA": "T. Ramachandran",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "K. K. S. S. R. Ramachandran",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Senthil",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Senthil",
+        "party": "TVK"
+      },
+      {
+        "name": "Abhinaya",
+        "party": "NTK"
+      },
+      {
+        "name": "Pon Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 183 located in Pudukottai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "184",
+    "name": "Karaikudi",
+    "district": "Sivaganga",
+    "currentMLA": "S. Mangudi",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "A. Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "S. Prabhu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "A. Balu",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Suresh",
+        "party": "NTK"
+      },
+      {
+        "name": "J. Selvam",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 184 located in Sivaganga. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "185",
+    "name": "Tiruppattur(Sivaganga)",
+    "district": "Sivaganga",
+    "currentMLA": "K. R. Periyakaruppan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. Rajan",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Natarajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Baskar",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Balu",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Arun",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 185 located in Sivaganga. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "186",
+    "name": "Sivaganga",
+    "district": "Sivaganga",
+    "currentMLA": "P. R. Senthilnathan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Ponmudy",
+        "party": "DMK"
+      },
+      {
+        "name": "K. A. Sengottaiyan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Balu",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Baskar",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Prabhu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 186 located in Sivaganga. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "187",
+    "name": "Manamadurai (SC)",
+    "district": "Sivaganga",
+    "currentMLA": "A. Tamilarasi",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Ponmudy",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Balu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Dinesh",
+        "party": "TVK"
+      },
+      {
+        "name": "T. Arun",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Saravanan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 187 located in Sivaganga. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "188",
+    "name": "Melur",
+    "district": "Madurai",
+    "currentMLA": "P. Selvam",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Sekar",
+        "party": "DMK"
+      },
+      {
+        "name": "Dindigul C. Sreenivasan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "Kaliammal",
+        "party": "NTK"
+      },
+      {
+        "name": "Nainar Nagendran",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 188 located in Madurai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "189",
+    "name": "Madurai East",
+    "district": "Madurai",
+    "currentMLA": "P. Moorthy",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Ramesh",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Thangamani",
+        "party": "AIADMK"
+      },
+      {
+        "name": "A. Prabhu",
+        "party": "TVK"
+      },
+      {
+        "name": "T. Suresh",
+        "party": "NTK"
+      },
+      {
+        "name": "V. Suresh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 189 located in Madurai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "190",
+    "name": "Sholavandan (SC)",
+    "district": "Madurai",
+    "currentMLA": "A. Venkatesan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Suresh",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Murugan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Balu",
+        "party": "TVK"
+      },
+      {
+        "name": "Abhinaya",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Selvam",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 190 located in Madurai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "191",
+    "name": "Madurai North",
+    "district": "Madurai",
+    "currentMLA": "G. Thalapathi",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Selvam",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Murugan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Natarajan",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Ramesh",
+        "party": "NTK"
+      },
+      {
+        "name": "Vanathi Srinivasan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 191 located in Madurai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "192",
+    "name": "Madurai South",
+    "district": "Madurai",
+    "currentMLA": "M. Boominathan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "Durai Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "D. Jayakumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Natarajan",
+        "party": "TVK"
+      },
+      {
+        "name": "R. Murugan",
+        "party": "NTK"
+      },
+      {
+        "name": "H. Raja",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 192 located in Madurai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "193",
+    "name": "Madurai Central",
+    "district": "Madurai",
+    "currentMLA": "Palanivel Thiagarajan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. Arun",
+        "party": "DMK"
+      },
+      {
+        "name": "T. Ganesan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Natarajan",
+        "party": "TVK"
+      },
+      {
+        "name": "Idumbavanam Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "Nainar Nagendran",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 193 located in Madurai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "194",
+    "name": "Madurai West",
+    "district": "Madurai",
+    "currentMLA": "Sellur K. Raju",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. N. Nehru",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Selvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Baskar",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 194 located in Madurai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "195",
+    "name": "Thiruparankundram",
+    "district": "Madurai",
+    "currentMLA": "V. V. Rajan Chellappa",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "A. Arun",
+        "party": "DMK"
+      },
+      {
+        "name": "O. Panneerselvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Saravanan",
+        "party": "TVK"
+      },
+      {
+        "name": "Vetri",
+        "party": "NTK"
+      },
+      {
+        "name": "V. Ganesan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 195 located in Madurai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "196",
+    "name": "Tirumangalam",
+    "district": "Madurai",
+    "currentMLA": "R. B. Udhaya Kumar",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "E. V. Velu",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Natarajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Balu",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Arun",
+        "party": "NTK"
+      },
+      {
+        "name": "Vanathi Srinivasan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 196 located in Madurai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "197",
+    "name": "Usilampatti",
+    "district": "Madurai",
+    "currentMLA": "P. Ayyappan",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Selvam",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Dinesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. A. Chandrasekhar",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Sekar",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 197 located in Madurai. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "198",
+    "name": "Andipatti",
+    "district": "Theni",
+    "currentMLA": "A. Maharajan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Selvam",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Sekar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. A. Chandrasekhar",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Senthil",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 198 located in Theni. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "199",
+    "name": "Periyakulam (SC)",
+    "district": "Theni",
+    "currentMLA": "K. S. Saravana Kumar",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. R. K. Panneerselvam",
+        "party": "DMK"
+      },
+      {
+        "name": "D. Jayakumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Murugan",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Balu",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 199 located in Theni. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "200",
+    "name": "Bodinayakanur",
+    "district": "Theni",
+    "currentMLA": "O. Panneerselvam",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Balu",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Dinesh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "Idumbavanam Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Kumar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 200 located in Theni. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "201",
+    "name": "Cumbum",
+    "district": "Theni",
+    "currentMLA": "N. Eramakrishnan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Natarajan",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Vijay",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Selvam",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Kumar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 201 located in Theni. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "202",
+    "name": "Rajapalayam",
+    "district": "Virudhunagar",
+    "currentMLA": "S. Thangappandian",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. R. B. Rajaa",
+        "party": "DMK"
+      },
+      {
+        "name": "A. Muthu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Sekar",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Kumar",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 202 located in Virudhunagar. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "203",
+    "name": "Srivilliputhur (SC)",
+    "district": "Virudhunagar",
+    "currentMLA": "E. M. Manraj",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Vijay",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Kamaraj",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Sekar",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Muthu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 203 located in Virudhunagar. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "204",
+    "name": "Sattur",
+    "district": "Virudhunagar",
+    "currentMLA": "A. R. R. Raghuraman",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Ganesan",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Suresh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Prabhu",
+        "party": "NTK"
+      },
+      {
+        "name": "Nainar Nagendran",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 204 located in Virudhunagar. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "205",
+    "name": "Sivakasi",
+    "district": "Virudhunagar",
+    "currentMLA": "A. M. S. G. Ashokan",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Sekar",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Muthu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Balu",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Dinesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 205 located in Virudhunagar. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "206",
+    "name": "Virudhunagar",
+    "district": "Virudhunagar",
+    "currentMLA": "A. R. R. Seenivasan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Sekar",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Thangamani",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "Sathyakala",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Vijay",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 206 located in Virudhunagar. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "207",
+    "name": "Aruppukkottai",
+    "district": "Virudhunagar",
+    "currentMLA": "Sattur Ramachandran",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Natarajan",
+        "party": "DMK"
+      },
+      {
+        "name": "S. P. Velumani",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Baskar",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Prabhu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 207 located in Virudhunagar. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "208",
+    "name": "Tiruchuli",
+    "district": "Virudhunagar",
+    "currentMLA": "Thangam Thennarasu",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Vijay",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Ve. Shanmugam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Saravanan",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Pandian",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Rajan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 208 located in Virudhunagar. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "209",
+    "name": "Paramakudi (SC)",
+    "district": "Ramanathapuram",
+    "currentMLA": "S. Murugesan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Senthil",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Ve. Shanmugam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Mansoor Ali Khan",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Ramesh",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Ganesan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 209 located in Ramanathapuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "210",
+    "name": "Tiruvadanai",
+    "district": "Ramanathapuram",
+    "currentMLA": "R. M. Karumanikam",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Arun",
+        "party": "DMK"
+      },
+      {
+        "name": "T. Kumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Kumar",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Prabhu",
+        "party": "NTK"
+      },
+      {
+        "name": "V. Saravanan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 210 located in Ramanathapuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "211",
+    "name": "Ramanathapuram",
+    "district": "Ramanathapuram",
+    "currentMLA": "K. Muthuramalingam",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Pandian",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Natarajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Bussy Anand",
+        "party": "TVK"
+      },
+      {
+        "name": "M. Senthil",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Muthu",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 211 located in Ramanathapuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "212",
+    "name": "Mudhukulathur",
+    "district": "Ramanathapuram",
+    "currentMLA": "R. S. Raja Kannappan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Rajan",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Selvam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Senthil",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Arun",
+        "party": "NTK"
+      },
+      {
+        "name": "C. P. Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 212 located in Ramanathapuram. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "213",
+    "name": "Vilathikulam",
+    "district": "Thoothukudi",
+    "currentMLA": "G. V. Markandayan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Arun",
+        "party": "DMK"
+      },
+      {
+        "name": "S. Natarajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "T. Pandian",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Prabhu",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 213 located in Thoothukudi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "214",
+    "name": "Thoothukkudi",
+    "district": "Thoothukudi",
+    "currentMLA": "P. Geetha Jeevan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. Ramesh",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Sekar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Murugan",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Selvam",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 214 located in Thoothukudi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "215",
+    "name": "Tiruchendur",
+    "district": "Thoothukudi",
+    "currentMLA": "Anitha R. Radhakrishnan",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "A. Ganesan",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Pandian",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Bussy Anand",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Natarajan",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Dinesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 215 located in Thoothukudi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "216",
+    "name": "Srivaikuntam",
+    "district": "Thoothukudi",
+    "currentMLA": "Oorvasi S. Amirtharaj",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Senthil",
+        "party": "DMK"
+      },
+      {
+        "name": "C. Ve. Shanmugam",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Vijay",
+        "party": "TVK"
+      },
+      {
+        "name": "A. Muthu",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Pandian",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 216 located in Thoothukudi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "217",
+    "name": "Ottapidaram (SC)",
+    "district": "Thoothukudi",
+    "currentMLA": "M. C. Shunmugaiah",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Vijay",
+        "party": "DMK"
+      },
+      {
+        "name": "P. Sekar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. A. Chandrasekhar",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Selvam",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Natarajan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 217 located in Thoothukudi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "218",
+    "name": "Kovilpatti",
+    "district": "Thoothukudi",
+    "currentMLA": "Kadambur C. Raju",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "J. Natarajan",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Rajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Natarajan",
+        "party": "TVK"
+      },
+      {
+        "name": "Sathyakala",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Karthik",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 218 located in Thoothukudi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "219",
+    "name": "Sankarankovil (SC)",
+    "district": "Tenkasi",
+    "currentMLA": "E. Raja",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Saravanan",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Suresh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Arun",
+        "party": "TVK"
+      },
+      {
+        "name": "Sathyakala",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Natarajan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 219 located in Tenkasi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "220",
+    "name": "Vasudevanallur (SC)",
+    "district": "Tenkasi",
+    "currentMLA": "Dr. T. Sadhan Tirumalaikumar",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Arun",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Sekar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Ramesh",
+        "party": "TVK"
+      },
+      {
+        "name": "Vetri",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Natarajan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 220 located in Tenkasi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "221",
+    "name": "Kadayanallur",
+    "district": "Tenkasi",
+    "currentMLA": "C. Krishnamurali",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "R. Balu",
+        "party": "DMK"
+      },
+      {
+        "name": "K. A. Sengottaiyan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Balu",
+        "party": "TVK"
+      },
+      {
+        "name": "P. Suresh",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Dinesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 221 located in Tenkasi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "222",
+    "name": "Tenkasi",
+    "district": "Tenkasi",
+    "currentMLA": "S. Palani Nadar",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "T. Dinesh",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Prabhu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Mansoor Ali Khan",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Kumar",
+        "party": "NTK"
+      },
+      {
+        "name": "V. Saravanan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 222 located in Tenkasi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "223",
+    "name": "Alangulam",
+    "district": "Tenkasi",
+    "currentMLA": "P. H. Manoj Pandian",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "V. Murugan",
+        "party": "DMK"
+      },
+      {
+        "name": "Dindigul C. Sreenivasan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "G. Saravanan",
+        "party": "TVK"
+      },
+      {
+        "name": "Seeman",
+        "party": "NTK"
+      },
+      {
+        "name": "S. Sekar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 223 located in Tenkasi. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "224",
+    "name": "Tirunelveli",
+    "district": "Tirunelveli",
+    "currentMLA": "Nainar Nagendran",
+    "mlaParty": "BJP",
+    "nextElectionCandidates": [
+      {
+        "name": "G. Pandian",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Murugan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "A. Kumar",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Selvam",
+        "party": "NTK"
+      },
+      {
+        "name": "M. Selvam",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 224 located in Tirunelveli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "225",
+    "name": "Ambasamudram",
+    "district": "Tirunelveli",
+    "currentMLA": "E. Subaya",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Senthil",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Vijay",
+        "party": "AIADMK"
+      },
+      {
+        "name": "Mansoor Ali Khan",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Karthik",
+        "party": "NTK"
+      },
+      {
+        "name": "L. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 225 located in Tirunelveli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "226",
+    "name": "Palayamkottai",
+    "district": "Tirunelveli",
+    "currentMLA": "M. Abdul Wahab",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "P. K. Sekar Babu",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Suresh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. K. Suresh",
+        "party": "TVK"
+      },
+      {
+        "name": "J. Saravanan",
+        "party": "NTK"
+      },
+      {
+        "name": "G. Kumar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 226 located in Tirunelveli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "227",
+    "name": "Nanguneri",
+    "district": "Tirunelveli",
+    "currentMLA": "Ruby R. Manoharan",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "K. K. S. S. R. Ramachandran",
+        "party": "DMK"
+      },
+      {
+        "name": "J. Suresh",
+        "party": "AIADMK"
+      },
+      {
+        "name": "R. Muthu",
+        "party": "TVK"
+      },
+      {
+        "name": "T. Dinesh",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Sekar",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 227 located in Tirunelveli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "228",
+    "name": "Radhapuram",
+    "district": "Tirunelveli",
+    "currentMLA": "M. Appavu",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "E. V. Velu",
+        "party": "DMK"
+      },
+      {
+        "name": "G. Ganesan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "J. Dinesh",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Sekar",
+        "party": "NTK"
+      },
+      {
+        "name": "C. P. Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 228 located in Tirunelveli. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "229",
+    "name": "Kanniyakumari",
+    "district": "Kanniyakumari",
+    "currentMLA": "N. Thalavai Sundaram",
+    "mlaParty": "ADMK",
+    "nextElectionCandidates": [
+      {
+        "name": "K. N. Nehru",
+        "party": "DMK"
+      },
+      {
+        "name": "T. Pandian",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "Abhinaya",
+        "party": "NTK"
+      },
+      {
+        "name": "K. Dinesh",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 229 located in Kanniyakumari. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "230",
+    "name": "Nagercoil",
+    "district": "Kanniyakumari",
+    "currentMLA": "M. R. Gandhi",
+    "mlaParty": "BJP",
+    "nextElectionCandidates": [
+      {
+        "name": "I. Periyasamy",
+        "party": "DMK"
+      },
+      {
+        "name": "R. Kamaraj",
+        "party": "AIADMK"
+      },
+      {
+        "name": "M. Dinesh",
+        "party": "TVK"
+      },
+      {
+        "name": "K. Murugan",
+        "party": "NTK"
+      },
+      {
+        "name": "P. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 230 located in Kanniyakumari. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "231",
+    "name": "Colachel",
+    "district": "Kanniyakumari",
+    "currentMLA": "J. G. Prince",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "K. K. S. S. R. Ramachandran",
+        "party": "DMK"
+      },
+      {
+        "name": "M. Rajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "S. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "G. Kumar",
+        "party": "NTK"
+      },
+      {
+        "name": "R. Ganesan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 231 located in Kanniyakumari. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "232",
+    "name": "Padmanabhapuram",
+    "district": "Kanniyakumari",
+    "currentMLA": "Mano Thangaraj",
+    "mlaParty": "DMK",
+    "nextElectionCandidates": [
+      {
+        "name": "M. Muthu",
+        "party": "DMK"
+      },
+      {
+        "name": "V. Natarajan",
+        "party": "AIADMK"
+      },
+      {
+        "name": "V. Arun",
+        "party": "TVK"
+      },
+      {
+        "name": "S. Ganesan",
+        "party": "NTK"
+      },
+      {
+        "name": "C. P. Radhakrishnan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 232 located in Kanniyakumari. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "233",
+    "name": "Vilavancode",
+    "district": "Kanniyakumari",
+    "currentMLA": "S. Vijayadharani",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "S. Regupathy",
+        "party": "DMK"
+      },
+      {
+        "name": "K. Prabhu",
+        "party": "AIADMK"
+      },
+      {
+        "name": "P. Karthik",
+        "party": "TVK"
+      },
+      {
+        "name": "V. Sekar",
+        "party": "NTK"
+      },
+      {
+        "name": "T. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 233 located in Kanniyakumari. Polling procedures follow standard ECI guidelines."
+  },
+  {
+    "id": "234",
+    "name": "Killiyoor",
+    "district": "Kanniyakumari",
+    "currentMLA": "S. Rajeshkumar",
+    "mlaParty": "INC",
+    "nextElectionCandidates": [
+      {
+        "name": "K. Kumar",
+        "party": "DMK"
+      },
+      {
+        "name": "D. Jayakumar",
+        "party": "AIADMK"
+      },
+      {
+        "name": "K. Sekar",
+        "party": "TVK"
+      },
+      {
+        "name": "Abhinaya",
+        "party": "NTK"
+      },
+      {
+        "name": "A. Murugan",
+        "party": "BJP"
+      }
+    ],
+    "totalVoters": "2,50,000+ (Est.)",
+    "guide": "This is constituency number 234 located in Kanniyakumari. Polling procedures follow standard ECI guidelines."
+  }
+]
