@@ -49,16 +49,24 @@ export default function ChatPage({ selectedState }) {
     window.scrollTo(0, 0);
   }, []);
 
-  const scrollToBottom = () => {
+  const scrollToBottom = (force = false) => {
     if (isFirstRender.current) {
       isFirstRender.current = false;
       return;
     }
+    
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollTo({
-        top: scrollContainerRef.current.scrollHeight,
-        behavior: "smooth"
-      });
+      const { scrollTop, scrollHeight, clientHeight } = scrollContainerRef.current;
+      const isAtBottom = scrollHeight - scrollTop <= clientHeight + 150;
+      const lastMessage = messages[messages.length - 1];
+      const isUserMessage = lastMessage?.role === 'user';
+
+      if (force || isAtBottom || isUserMessage) {
+        scrollContainerRef.current.scrollTo({
+          top: scrollHeight,
+          behavior: force || isUserMessage ? "smooth" : "auto"
+        });
+      }
     }
   };
 
@@ -102,6 +110,7 @@ export default function ChatPage({ selectedState }) {
       setMessages(session.messages);
       setCurrentSessionId(sessionId);
       if (window.innerWidth < 1024) setIsSidebarOpen(false);
+      setTimeout(() => scrollToBottom(true), 100);
     }
   };
 
@@ -152,11 +161,38 @@ export default function ChatPage({ selectedState }) {
         history: messages.map(m => ({ role: m.role, content: m.content }))
       });
 
+      const fullReply = response.data.reply;
+      const modelInfo = response.data.model;
+
+      // Add empty assistant message first
       setMessages(prev => [...prev, { 
         role: 'assistant', 
-        content: response.data.reply,
-        model: response.data.model
+        content: '',
+        model: modelInfo,
+        isTyping: true
       }]);
+
+      setIsLoading(false);
+
+      // Simulate character-by-character streaming
+      let currentText = '';
+      const chars = Array.from(fullReply);
+      
+      for (let i = 0; i < chars.length; i++) {
+        currentText += chars[i];
+        setMessages(prev => {
+          const newMessages = [...prev];
+          newMessages[newMessages.length - 1].content = currentText;
+          // Only the last char should keep isTyping true to stop effect
+          if (i === chars.length - 1) newMessages[newMessages.length - 1].isTyping = false;
+          return newMessages;
+        });
+        
+        // Speed control: slow down for punctuation, speed up for normal chars
+        const delay = ['.', '?', '!'].includes(chars[i]) ? 150 : 15;
+        await new Promise(r => setTimeout(r, delay));
+      }
+
     } catch (error) {
       const errorMsg = error.response?.data?.reply || "I'm having trouble connecting to the brain center. This is usually due to high traffic. Please try again in a moment.";
       setMessages(prev => [...prev, { 
@@ -164,7 +200,6 @@ export default function ChatPage({ selectedState }) {
         content: errorMsg,
         isError: true 
       }]);
-    } finally {
       setIsLoading(false);
     }
   };
@@ -185,6 +220,7 @@ export default function ChatPage({ selectedState }) {
       }
     ]);
     setCurrentSessionId(Date.now().toString());
+    setTimeout(() => scrollToBottom(true), 100);
   };
 
   return (
@@ -421,6 +457,7 @@ export default function ChatPage({ selectedState }) {
                     >
                       {msg.content}
                     </ReactMarkdown>
+                    {msg.isTyping && <span className="animate-cursor" />}
 
                     {/* 3D Voter ID Trigger */}
                     {msg.role === 'assistant' && (msg.content.toLowerCase().includes('voter id') || msg.content.toLowerCase().includes('epic card')) && !msg.isError && (
@@ -462,37 +499,83 @@ export default function ChatPage({ selectedState }) {
             ))}
             
             {isLoading && (
-              <div className="flex justify-start gap-4 md:gap-8">
-                <div className="w-10 h-10 md:w-12 md:h-12 bg-navy_blue rounded-2xl flex-shrink-0 flex items-center justify-center animate-pulse">
-                  <Sparkles className="w-5 h-5 text-saffron opacity-50" />
+              <motion.div 
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="flex justify-start gap-4 md:gap-8"
+              >
+                <div className="w-10 h-10 md:w-12 md:h-12 bg-navy_blue rounded-2xl flex-shrink-0 flex items-center justify-center relative overflow-hidden group">
+                   {/* Pulsating Ring (Gemini Style) */}
+                   <motion.div 
+                     animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.6, 0.3] }}
+                     transition={{ repeat: Infinity, duration: 2 }}
+                     className="absolute inset-0 bg-gradient-to-tr from-saffron via-white to-tricolor_green opacity-30"
+                   />
+                   <div className="relative z-10 font-black text-white text-xs">E</div>
                 </div>
-                <div className="bg-white border border-slate-200 p-6 md:p-10 rounded-[2.5rem] rounded-tl-none shadow-sm flex flex-col gap-4 min-w-[250px] md:min-w-[400px]">
-                   <div className="flex gap-3 items-center">
-                     <Loader2 className="w-5 h-5 text-saffron animate-spin" />
-                     <span className="text-[10px] md:text-xs font-black text-navy_blue uppercase tracking-widest animate-pulse">
-                       Electra is cross-referencing...
-                     </span>
-                   </div>
-                   <div className="h-1.5 w-full bg-slate-50 rounded-full overflow-hidden p-0.5 border border-slate-100">
-                     <motion.div 
-                       initial={{ x: "-100%" }}
-                       animate={{ x: "100%" }}
-                       transition={{ repeat: Infinity, duration: 1.5, ease: "linear" }}
-                       className="h-full w-1/3 bg-gradient-to-r from-transparent via-saffron to-transparent rounded-full"
-                     />
-                   </div>
-                   <div className="flex justify-between items-center">
-                     <p className="text-[8px] md:text-[10px] font-bold text-slate-400 uppercase tracking-widest">
-                       Accessing Constitutional Datasets
-                     </p>
-                     <div className="flex gap-1">
-                        <div className="w-1 h-1 bg-tricolor_green rounded-full animate-bounce" style={{ animationDelay: '0s' }} />
-                        <div className="w-1 h-1 bg-tricolor_green rounded-full animate-bounce" style={{ animationDelay: '0.2s' }} />
-                        <div className="w-1 h-1 bg-tricolor_green rounded-full animate-bounce" style={{ animationDelay: '0.4s' }} />
+
+                <div className="bg-white border border-slate-100 p-6 md:p-8 rounded-[2.5rem] rounded-tl-none shadow-xl flex flex-col gap-5 min-w-[280px] md:min-w-[450px] relative overflow-hidden">
+                   {/* Shimmer Background */}
+                   <motion.div 
+                     initial={{ x: "-100%" }}
+                     animate={{ x: "200%" }}
+                     transition={{ repeat: Infinity, duration: 2.5, ease: "linear" }}
+                     className="absolute inset-0 bg-gradient-to-r from-transparent via-slate-50/50 to-transparent skew-x-12"
+                   />
+
+                   <div className="relative z-10 flex flex-col gap-4">
+                     <div className="flex items-center justify-between">
+                        <div className="flex gap-2 items-center">
+                          <div className="flex gap-1">
+                             <motion.div 
+                               animate={{ scale: [1, 1.5, 1], opacity: [1, 0.5, 1] }}
+                               transition={{ repeat: Infinity, duration: 1, delay: 0 }}
+                               className="w-1.5 h-1.5 bg-saffron rounded-full" 
+                             />
+                             <motion.div 
+                               animate={{ scale: [1, 1.5, 1], opacity: [1, 0.5, 1] }}
+                               transition={{ repeat: Infinity, duration: 1, delay: 0.2 }}
+                               className="w-1.5 h-1.5 bg-slate-200 rounded-full" 
+                             />
+                             <motion.div 
+                               animate={{ scale: [1, 1.5, 1], opacity: [1, 0.5, 1] }}
+                               transition={{ repeat: Infinity, duration: 1, delay: 0.4 }}
+                               className="w-1.5 h-1.5 bg-tricolor_green rounded-full" 
+                             />
+                          </div>
+                          <span className="text-[10px] md:text-xs font-black text-navy_blue uppercase tracking-[0.2em] animate-pulse">
+                            Thinking...
+                          </span>
+                        </div>
+                        <Sparkles className="w-4 h-4 text-saffron/30 animate-spin-slow" />
                      </div>
+
+                     <div className="space-y-3">
+                        <div className="h-2 w-full bg-slate-100 rounded-full overflow-hidden relative">
+                           <motion.div 
+                             initial={{ x: "-100%" }}
+                             animate={{ x: "100%" }}
+                             transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
+                             className="absolute inset-0 bg-gradient-to-r from-transparent via-saffron/40 to-transparent"
+                           />
+                        </div>
+                        <div className="h-2 w-2/3 bg-slate-100 rounded-full overflow-hidden relative">
+                           <motion.div 
+                             initial={{ x: "-100%" }}
+                             animate={{ x: "100%" }}
+                             transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut", delay: 0.3 }}
+                             className="absolute inset-0 bg-gradient-to-r from-transparent via-tricolor_green/40 to-transparent"
+                           />
+                        </div>
+                     </div>
+
+                     <p className="text-[9px] md:text-[10px] font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
+                        <Globe className="w-3 h-3 opacity-50" />
+                        Synchronizing with Constitutional Nodes
+                     </p>
                    </div>
                 </div>
-              </div>
+              </motion.div>
             )}
             <div ref={messagesEndRef} className="h-32" />
           </div>
